@@ -1,0 +1,3888 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5dc071f2e342848bc677be10103f240d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5dc071f2e342848bc677be10103f240d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5dc071f2e342848bc677be10103f240d = L.map(
+                "map_5dc071f2e342848bc677be10103f240d",
+                {
+                    center: [41.902782, 12.496366],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_429731719e354dd32dda9b0712287f43 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_429731719e354dd32dda9b0712287f43.addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var circle_c59e2327c98f9f182d1157fbddb9c71d = L.circle(
+                [37.09024, -95.712891],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 905000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_3be66a8e2d664f10d7ed54429ef92301 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eb8c8513f218d3278037008debef893 = $(`<div id="html_8eb8c8513f218d3278037008debef893" style="width: 100.0%; height: 100.0%;">united states Paper Count:1810</div>`)[0];
+                popup_3be66a8e2d664f10d7ed54429ef92301.setContent(html_8eb8c8513f218d3278037008debef893);
+            
+        
+
+        circle_c59e2327c98f9f182d1157fbddb9c71d.bindPopup(popup_3be66a8e2d664f10d7ed54429ef92301)
+        ;
+
+        
+    
+    
+            var marker_ea1aeb24006a3bdfba5e036142941c47 = L.marker(
+                [37.09024, -95.712891],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_0131ff6ad6e12bc3c88b3b8476b5b0bc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1810\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_ea1aeb24006a3bdfba5e036142941c47.setIcon(div_icon_0131ff6ad6e12bc3c88b3b8476b5b0bc);
+        
+    
+            var circle_01b24c21294b35fed102cc20af5c72c8 = L.circle(
+                [55.378051, -3.435973],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 497000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_b0a0765de3ea5fa6046fd2212e809280 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0fcc164040497e1c3ed53d8b7fca131 = $(`<div id="html_c0fcc164040497e1c3ed53d8b7fca131" style="width: 100.0%; height: 100.0%;">united kingdom Paper Count:994</div>`)[0];
+                popup_b0a0765de3ea5fa6046fd2212e809280.setContent(html_c0fcc164040497e1c3ed53d8b7fca131);
+            
+        
+
+        circle_01b24c21294b35fed102cc20af5c72c8.bindPopup(popup_b0a0765de3ea5fa6046fd2212e809280)
+        ;
+
+        
+    
+    
+            var marker_1ee5fcb282ceac4257a22e3d897eb5ce = L.marker(
+                [55.378051, -3.435973],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_804ff821438739eb41f90ca0e00633bc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e994\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_1ee5fcb282ceac4257a22e3d897eb5ce.setIcon(div_icon_804ff821438739eb41f90ca0e00633bc);
+        
+    
+            var circle_9eda1798519c8e1b158d254721683838 = L.circle(
+                [51.165691, 10.451526],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 261500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_f7410e942e0a4b7695d3c3a9ac314bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca64aaff304584f34450e3ae3ccf1e7a = $(`<div id="html_ca64aaff304584f34450e3ae3ccf1e7a" style="width: 100.0%; height: 100.0%;">germany Paper Count:523</div>`)[0];
+                popup_f7410e942e0a4b7695d3c3a9ac314bdd.setContent(html_ca64aaff304584f34450e3ae3ccf1e7a);
+            
+        
+
+        circle_9eda1798519c8e1b158d254721683838.bindPopup(popup_f7410e942e0a4b7695d3c3a9ac314bdd)
+        ;
+
+        
+    
+    
+            var marker_f62d734af5f948a10e97c85f18320585 = L.marker(
+                [51.165691, 10.451526],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_a29ebe75bf0d5fa7d3670b85d53d44f2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e523\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_f62d734af5f948a10e97c85f18320585.setIcon(div_icon_a29ebe75bf0d5fa7d3670b85d53d44f2);
+        
+    
+            var circle_463653a4a45579a7ea9e7b5d13feb9f3 = L.circle(
+                [-25.274398, 133.775136],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 245000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_c91095fd3d2c018d1b9399a694492471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf2c5cca3e3b7fb4e7656ab49c5be4c7 = $(`<div id="html_cf2c5cca3e3b7fb4e7656ab49c5be4c7" style="width: 100.0%; height: 100.0%;">australia Paper Count:490</div>`)[0];
+                popup_c91095fd3d2c018d1b9399a694492471.setContent(html_cf2c5cca3e3b7fb4e7656ab49c5be4c7);
+            
+        
+
+        circle_463653a4a45579a7ea9e7b5d13feb9f3.bindPopup(popup_c91095fd3d2c018d1b9399a694492471)
+        ;
+
+        
+    
+    
+            var marker_fb44fee03b7dbd777eed3dfb78843f3b = L.marker(
+                [-25.274398, 133.775136],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_0cb32a8c0e9694cdf82c422ed60cb626 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e490\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_fb44fee03b7dbd777eed3dfb78843f3b.setIcon(div_icon_0cb32a8c0e9694cdf82c422ed60cb626);
+        
+    
+            var circle_df9fadde315933e05700ebac14605ec3 = L.circle(
+                [56.130366, -106.346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 189500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_0693b3b3d2c7d30b306a46ac3d7cc665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40fa3fb5eaaac3eb7c964cd107016da3 = $(`<div id="html_40fa3fb5eaaac3eb7c964cd107016da3" style="width: 100.0%; height: 100.0%;">canada Paper Count:379</div>`)[0];
+                popup_0693b3b3d2c7d30b306a46ac3d7cc665.setContent(html_40fa3fb5eaaac3eb7c964cd107016da3);
+            
+        
+
+        circle_df9fadde315933e05700ebac14605ec3.bindPopup(popup_0693b3b3d2c7d30b306a46ac3d7cc665)
+        ;
+
+        
+    
+    
+            var marker_a72dcbf0696854a40147917a5c7905c2 = L.marker(
+                [56.130366, -106.346771],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_975560f9b9f51f7c998a5c1f32818635 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e379\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_a72dcbf0696854a40147917a5c7905c2.setIcon(div_icon_975560f9b9f51f7c998a5c1f32818635);
+        
+    
+            var circle_09380d5c997c6b0c454bfc471469f0c2 = L.circle(
+                [20.593684, 78.96288],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 175500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_15f950ff58ba1f46599287c8f881cc50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a39a5301ba0848dd336d8757b6c0e18 = $(`<div id="html_4a39a5301ba0848dd336d8757b6c0e18" style="width: 100.0%; height: 100.0%;">india Paper Count:351</div>`)[0];
+                popup_15f950ff58ba1f46599287c8f881cc50.setContent(html_4a39a5301ba0848dd336d8757b6c0e18);
+            
+        
+
+        circle_09380d5c997c6b0c454bfc471469f0c2.bindPopup(popup_15f950ff58ba1f46599287c8f881cc50)
+        ;
+
+        
+    
+    
+            var marker_d20b0d5939e3cc18145376b506833552 = L.marker(
+                [20.593684, 78.96288],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_ab901f4e0ecc050678903d0b9213ad15 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e351\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_d20b0d5939e3cc18145376b506833552.setIcon(div_icon_ab901f4e0ecc050678903d0b9213ad15);
+        
+    
+            var circle_4a60c359e4ff75ddede9d08d74ec5bc5 = L.circle(
+                [35.86166, 104.195397],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 175000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_5f8938129fa76da0d21300d1562f3f79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c855033502c8285a5e392d1d052a923e = $(`<div id="html_c855033502c8285a5e392d1d052a923e" style="width: 100.0%; height: 100.0%;">china Paper Count:350</div>`)[0];
+                popup_5f8938129fa76da0d21300d1562f3f79.setContent(html_c855033502c8285a5e392d1d052a923e);
+            
+        
+
+        circle_4a60c359e4ff75ddede9d08d74ec5bc5.bindPopup(popup_5f8938129fa76da0d21300d1562f3f79)
+        ;
+
+        
+    
+    
+            var marker_fbab9a1938c8edd4ae3c3e9f0feaf784 = L.marker(
+                [35.86166, 104.195397],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_01a2e88d671c1a4d3825d925b0b3b290 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e350\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_fbab9a1938c8edd4ae3c3e9f0feaf784.setIcon(div_icon_01a2e88d671c1a4d3825d925b0b3b290);
+        
+    
+            var circle_3ce553d3fe437004e2523f703a04738b = L.circle(
+                [52.132633, 5.291266],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 133000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_5782abcbb9e1c807461fd18072d2c184 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42c3ab5dd0ba32187f34606e6e9d6e5d = $(`<div id="html_42c3ab5dd0ba32187f34606e6e9d6e5d" style="width: 100.0%; height: 100.0%;">netherlands Paper Count:266</div>`)[0];
+                popup_5782abcbb9e1c807461fd18072d2c184.setContent(html_42c3ab5dd0ba32187f34606e6e9d6e5d);
+            
+        
+
+        circle_3ce553d3fe437004e2523f703a04738b.bindPopup(popup_5782abcbb9e1c807461fd18072d2c184)
+        ;
+
+        
+    
+    
+            var marker_15de09ed9cc54e8857135117ee859714 = L.marker(
+                [52.132633, 5.291266],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_e3f4b0a2e5e94fcde57a0bb7011c4c7d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e266\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_15de09ed9cc54e8857135117ee859714.setIcon(div_icon_e3f4b0a2e5e94fcde57a0bb7011c4c7d);
+        
+    
+            var circle_d8f4083a055966df3008fe9a7f1ce0ae = L.circle(
+                [41.87194, 12.56738],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 125500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_a2de65b3feb856be34eac86992d6a32b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1761cdd811224d905b8d320750dd7a38 = $(`<div id="html_1761cdd811224d905b8d320750dd7a38" style="width: 100.0%; height: 100.0%;">italy Paper Count:251</div>`)[0];
+                popup_a2de65b3feb856be34eac86992d6a32b.setContent(html_1761cdd811224d905b8d320750dd7a38);
+            
+        
+
+        circle_d8f4083a055966df3008fe9a7f1ce0ae.bindPopup(popup_a2de65b3feb856be34eac86992d6a32b)
+        ;
+
+        
+    
+    
+            var marker_0046480c6e6cb4a0fdf0aaf5b8e6828a = L.marker(
+                [41.87194, 12.56738],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_58d3901a169123a89548c293f18bd817 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e251\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_0046480c6e6cb4a0fdf0aaf5b8e6828a.setIcon(div_icon_58d3901a169123a89548c293f18bd817);
+        
+    
+            var circle_a18be5348fa6f3230ea8a7eb0542c34d = L.circle(
+                [40.463667, -3.74922],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 112000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_5b7056ef18dc9e8274e859fa2b346c3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0856025e0ded167ec9a0b9a38f880386 = $(`<div id="html_0856025e0ded167ec9a0b9a38f880386" style="width: 100.0%; height: 100.0%;">spain Paper Count:224</div>`)[0];
+                popup_5b7056ef18dc9e8274e859fa2b346c3e.setContent(html_0856025e0ded167ec9a0b9a38f880386);
+            
+        
+
+        circle_a18be5348fa6f3230ea8a7eb0542c34d.bindPopup(popup_5b7056ef18dc9e8274e859fa2b346c3e)
+        ;
+
+        
+    
+    
+            var marker_fd032de8684010072911477e124f74a5 = L.marker(
+                [40.463667, -3.74922],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_3b8e0816d6f0eb3b291568b5f7cb8352 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e224\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_fd032de8684010072911477e124f74a5.setIcon(div_icon_3b8e0816d6f0eb3b291568b5f7cb8352);
+        
+    
+            var circle_13289cc32bb50a6cc5ea555ac8e68ddb = L.circle(
+                [46.227638, 2.213749],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 96000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_7946a3f56f0c4cf7e26e75e22c740144 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9a9355a2c561e809d5a4db30b6d2fab = $(`<div id="html_a9a9355a2c561e809d5a4db30b6d2fab" style="width: 100.0%; height: 100.0%;">france Paper Count:192</div>`)[0];
+                popup_7946a3f56f0c4cf7e26e75e22c740144.setContent(html_a9a9355a2c561e809d5a4db30b6d2fab);
+            
+        
+
+        circle_13289cc32bb50a6cc5ea555ac8e68ddb.bindPopup(popup_7946a3f56f0c4cf7e26e75e22c740144)
+        ;
+
+        
+    
+    
+            var marker_e68b3739b616e1c2c287a20d5ea1c255 = L.marker(
+                [46.227638, 2.213749],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_5c85ef9c0f43200d3bdeea35a396db9b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e192\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_e68b3739b616e1c2c287a20d5ea1c255.setIcon(div_icon_5c85ef9c0f43200d3bdeea35a396db9b);
+        
+    
+            var circle_e1689def6c7cf62b63499cb072029473 = L.circle(
+                [36.204824, 138.252924],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 83500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_1eacb6a35619ab59c5ca91a76e49ccd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b16f6ad6ac7b6f65aacce0d72d5d453e = $(`<div id="html_b16f6ad6ac7b6f65aacce0d72d5d453e" style="width: 100.0%; height: 100.0%;">japan Paper Count:167</div>`)[0];
+                popup_1eacb6a35619ab59c5ca91a76e49ccd5.setContent(html_b16f6ad6ac7b6f65aacce0d72d5d453e);
+            
+        
+
+        circle_e1689def6c7cf62b63499cb072029473.bindPopup(popup_1eacb6a35619ab59c5ca91a76e49ccd5)
+        ;
+
+        
+    
+    
+            var marker_6597f82bb41690cb87189aec2fd08e98 = L.marker(
+                [36.204824, 138.252924],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_d2541d062afcbf2f3f70488ad4118ee2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e167\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_6597f82bb41690cb87189aec2fd08e98.setIcon(div_icon_d2541d062afcbf2f3f70488ad4118ee2);
+        
+    
+            var circle_cda2bdc1a2a862729fe16716e339a7eb = L.circle(
+                [60.128161, 18.643501],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 71000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_2255577481ce049b3a154f3b5c5f550a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fef4f98865764c60aa63d177f968c879 = $(`<div id="html_fef4f98865764c60aa63d177f968c879" style="width: 100.0%; height: 100.0%;">sweden Paper Count:142</div>`)[0];
+                popup_2255577481ce049b3a154f3b5c5f550a.setContent(html_fef4f98865764c60aa63d177f968c879);
+            
+        
+
+        circle_cda2bdc1a2a862729fe16716e339a7eb.bindPopup(popup_2255577481ce049b3a154f3b5c5f550a)
+        ;
+
+        
+    
+    
+            var marker_fc0635bc603ba5d1625cad525d5483a9 = L.marker(
+                [60.128161, 18.643501],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_c2083450ce2e45ad5470b8f80162649d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e142\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_fc0635bc603ba5d1625cad525d5483a9.setIcon(div_icon_c2083450ce2e45ad5470b8f80162649d);
+        
+    
+            var circle_c6d30a2d64c5407155d3356a6456b52f = L.circle(
+                [35.907757, 127.766922],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 67500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_cdd63253e1652baaae900949206f9ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2485a324ea3e9b12fe43d7c3a1cf8d8c = $(`<div id="html_2485a324ea3e9b12fe43d7c3a1cf8d8c" style="width: 100.0%; height: 100.0%;">south korea Paper Count:135</div>`)[0];
+                popup_cdd63253e1652baaae900949206f9ac8.setContent(html_2485a324ea3e9b12fe43d7c3a1cf8d8c);
+            
+        
+
+        circle_c6d30a2d64c5407155d3356a6456b52f.bindPopup(popup_cdd63253e1652baaae900949206f9ac8)
+        ;
+
+        
+    
+    
+            var marker_e6ee1cf68c645e2966d42873fe3134ef = L.marker(
+                [35.907757, 127.766922],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_377a918648e877bfcf650c6853cc0975 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e135\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_e6ee1cf68c645e2966d42873fe3134ef.setIcon(div_icon_377a918648e877bfcf650c6853cc0975);
+        
+    
+            var circle_f17ef9278d4ad221010b240709a3ec73 = L.circle(
+                [61.52401, 105.318756],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 62500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_b548d4e59b6d7f1e50edb8cbc12fb73d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c60d542b0614b9d817a47f44b2eb6c0 = $(`<div id="html_5c60d542b0614b9d817a47f44b2eb6c0" style="width: 100.0%; height: 100.0%;">russian federation Paper Count:125</div>`)[0];
+                popup_b548d4e59b6d7f1e50edb8cbc12fb73d.setContent(html_5c60d542b0614b9d817a47f44b2eb6c0);
+            
+        
+
+        circle_f17ef9278d4ad221010b240709a3ec73.bindPopup(popup_b548d4e59b6d7f1e50edb8cbc12fb73d)
+        ;
+
+        
+    
+    
+            var marker_19598270613f68e58ed9b0bc9a9e12dc = L.marker(
+                [61.52401, 105.318756],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_f43bc3f328e2d8bded17663f6f644390 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e125\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_19598270613f68e58ed9b0bc9a9e12dc.setIcon(div_icon_f43bc3f328e2d8bded17663f6f644390);
+        
+    
+            var circle_8d999f9d1c789ba46623d5a3060f7d6f = L.circle(
+                [4.210484, 101.975766],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 58000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_4b0a6f9c78d123b4c220f6ad539988f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f149dd3aee1a3191442aeee5208245d3 = $(`<div id="html_f149dd3aee1a3191442aeee5208245d3" style="width: 100.0%; height: 100.0%;">malaysia Paper Count:116</div>`)[0];
+                popup_4b0a6f9c78d123b4c220f6ad539988f6.setContent(html_f149dd3aee1a3191442aeee5208245d3);
+            
+        
+
+        circle_8d999f9d1c789ba46623d5a3060f7d6f.bindPopup(popup_4b0a6f9c78d123b4c220f6ad539988f6)
+        ;
+
+        
+    
+    
+            var marker_ef425a883357a71205b902ecb1144da3 = L.marker(
+                [4.210484, 101.975766],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_4e53486e0410afbc0dcfdfc556ef2897 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e116\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_ef425a883357a71205b902ecb1144da3.setIcon(div_icon_4e53486e0410afbc0dcfdfc556ef2897);
+        
+    
+            var circle_6457a6327f82190ca28da353160e1a0e = L.circle(
+                [-14.235004, -51.92528],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 56000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ddacc743c5ab46dc004d74606020c75d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c9924a74c9654b9f1c6a1708c42ee21 = $(`<div id="html_7c9924a74c9654b9f1c6a1708c42ee21" style="width: 100.0%; height: 100.0%;">brazil Paper Count:112</div>`)[0];
+                popup_ddacc743c5ab46dc004d74606020c75d.setContent(html_7c9924a74c9654b9f1c6a1708c42ee21);
+            
+        
+
+        circle_6457a6327f82190ca28da353160e1a0e.bindPopup(popup_ddacc743c5ab46dc004d74606020c75d)
+        ;
+
+        
+    
+    
+            var marker_6c9bab7af53ba976c45bffbe3d576926 = L.marker(
+                [-14.235004, -51.92528],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_4989f86fdbeeadb61bed8a6a64ea9af0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e112\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_6c9bab7af53ba976c45bffbe3d576926.setIcon(div_icon_4989f86fdbeeadb61bed8a6a64ea9af0);
+        
+    
+            var circle_f7a8f57aae880a750111b202b7ca4ca7 = L.circle(
+                [61.92411, 25.748151],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 55000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ddc0b9ab9644c9f63311f8aef29c6345 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce1ddc96bd3538f058e992af5232f279 = $(`<div id="html_ce1ddc96bd3538f058e992af5232f279" style="width: 100.0%; height: 100.0%;">finland Paper Count:110</div>`)[0];
+                popup_ddc0b9ab9644c9f63311f8aef29c6345.setContent(html_ce1ddc96bd3538f058e992af5232f279);
+            
+        
+
+        circle_f7a8f57aae880a750111b202b7ca4ca7.bindPopup(popup_ddc0b9ab9644c9f63311f8aef29c6345)
+        ;
+
+        
+    
+    
+            var marker_2734c3778093c9d52d967e8608c8a5a6 = L.marker(
+                [61.92411, 25.748151],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_e385aa3d0d4a00d597aa8b746455c09e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e110\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_2734c3778093c9d52d967e8608c8a5a6.setIcon(div_icon_e385aa3d0d4a00d597aa8b746455c09e);
+        
+    
+            var circle_616e0ffe2c80dfe974f834bdd1bb0c52 = L.circle(
+                [-30.559482, 22.937506],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 54500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_a1a45760b72f39d89255b14aae7d0db9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be5a05ba76a4f67b80c0db4fda3de776 = $(`<div id="html_be5a05ba76a4f67b80c0db4fda3de776" style="width: 100.0%; height: 100.0%;">south africa Paper Count:109</div>`)[0];
+                popup_a1a45760b72f39d89255b14aae7d0db9.setContent(html_be5a05ba76a4f67b80c0db4fda3de776);
+            
+        
+
+        circle_616e0ffe2c80dfe974f834bdd1bb0c52.bindPopup(popup_a1a45760b72f39d89255b14aae7d0db9)
+        ;
+
+        
+    
+    
+            var marker_ce7ed5b76f4a2a72a68c48465df26799 = L.marker(
+                [-30.559482, 22.937506],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_0c02a0d3f84f016bbb5565c52ac96469 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e109\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_ce7ed5b76f4a2a72a68c48465df26799.setIcon(div_icon_0c02a0d3f84f016bbb5565c52ac96469);
+        
+    
+            var circle_9df7899eb1e93c51f7f1563866618497 = L.circle(
+                [50.503887, 4.469936],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 53500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_d62edeb895a79c3303401a6315190500 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efe2e85d67a30ee485e1863a52525adc = $(`<div id="html_efe2e85d67a30ee485e1863a52525adc" style="width: 100.0%; height: 100.0%;">belgium Paper Count:107</div>`)[0];
+                popup_d62edeb895a79c3303401a6315190500.setContent(html_efe2e85d67a30ee485e1863a52525adc);
+            
+        
+
+        circle_9df7899eb1e93c51f7f1563866618497.bindPopup(popup_d62edeb895a79c3303401a6315190500)
+        ;
+
+        
+    
+    
+            var marker_da6cf275e110174593831c53e3e8a59e = L.marker(
+                [50.503887, 4.469936],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_bd0441286673a377ee354fdc82f9eb39 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e107\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_da6cf275e110174593831c53e3e8a59e.setIcon(div_icon_bd0441286673a377ee354fdc82f9eb39);
+        
+    
+            var circle_bd3f2e0326e3f5049515efff96beec6b = L.circle(
+                [46.818188, 8.227512],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 53000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_4d3bc73e4ab19c8b9411ca897bcc0160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_390b73b3882cfabd9bd0d2e308f394b0 = $(`<div id="html_390b73b3882cfabd9bd0d2e308f394b0" style="width: 100.0%; height: 100.0%;">switzerland Paper Count:106</div>`)[0];
+                popup_4d3bc73e4ab19c8b9411ca897bcc0160.setContent(html_390b73b3882cfabd9bd0d2e308f394b0);
+            
+        
+
+        circle_bd3f2e0326e3f5049515efff96beec6b.bindPopup(popup_4d3bc73e4ab19c8b9411ca897bcc0160)
+        ;
+
+        
+    
+    
+            var marker_3d149e5b2a4ca2e0d3880db605600572 = L.marker(
+                [46.818188, 8.227512],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_e23b08ed35e9994c17c5a31210ffe268 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e106\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_3d149e5b2a4ca2e0d3880db605600572.setIcon(div_icon_e23b08ed35e9994c17c5a31210ffe268);
+        
+    
+            var circle_9a61eb7f92f4629dddf5b660996b5839 = L.circle(
+                [60.472024, 8.468946],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 46500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ef4aaab322fa05d68d361bc448e18105 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bc099a646aa40780f9b7e72eb24b071 = $(`<div id="html_5bc099a646aa40780f9b7e72eb24b071" style="width: 100.0%; height: 100.0%;">norway Paper Count:93</div>`)[0];
+                popup_ef4aaab322fa05d68d361bc448e18105.setContent(html_5bc099a646aa40780f9b7e72eb24b071);
+            
+        
+
+        circle_9a61eb7f92f4629dddf5b660996b5839.bindPopup(popup_ef4aaab322fa05d68d361bc448e18105)
+        ;
+
+        
+    
+    
+            var marker_ae8e698062b667c9a3fde5e90b2f3fe4 = L.marker(
+                [60.472024, 8.468946],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_91895e7be7ce2d6ee71e5afa3df7e68a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e93\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_ae8e698062b667c9a3fde5e90b2f3fe4.setIcon(div_icon_91895e7be7ce2d6ee71e5afa3df7e68a);
+        
+    
+            var circle_6ab3fb1d1fe2bc8f5176fddef332cf54 = L.circle(
+                [47.516231, 14.550072],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 42000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_51588b65873f2fc2dd8c0e06d9b25fbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d2fd548a362504283742ed99a09e90d = $(`<div id="html_5d2fd548a362504283742ed99a09e90d" style="width: 100.0%; height: 100.0%;">austria Paper Count:84</div>`)[0];
+                popup_51588b65873f2fc2dd8c0e06d9b25fbe.setContent(html_5d2fd548a362504283742ed99a09e90d);
+            
+        
+
+        circle_6ab3fb1d1fe2bc8f5176fddef332cf54.bindPopup(popup_51588b65873f2fc2dd8c0e06d9b25fbe)
+        ;
+
+        
+    
+    
+            var marker_14fbb5c5aa0916f087792ff171f6036b = L.marker(
+                [47.516231, 14.550072],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_98b2b40c6b76d739ab04a296dd3db060 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e84\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_14fbb5c5aa0916f087792ff171f6036b.setIcon(div_icon_98b2b40c6b76d739ab04a296dd3db060);
+        
+    
+            var circle_554a20bceb28b84a8bfd2f3d05e34915 = L.circle(
+                [39.399872, -8.224454],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 41000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_c4001b3c954e31d0169ccefec354691f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_589f9a344c852eef403861a3253d024c = $(`<div id="html_589f9a344c852eef403861a3253d024c" style="width: 100.0%; height: 100.0%;">portugal Paper Count:82</div>`)[0];
+                popup_c4001b3c954e31d0169ccefec354691f.setContent(html_589f9a344c852eef403861a3253d024c);
+            
+        
+
+        circle_554a20bceb28b84a8bfd2f3d05e34915.bindPopup(popup_c4001b3c954e31d0169ccefec354691f)
+        ;
+
+        
+    
+    
+            var marker_450283c5e75f2fcc5d52ca54f4c80260 = L.marker(
+                [39.399872, -8.224454],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_143bc35941a74012631bcf5aed0d536a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e82\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_450283c5e75f2fcc5d52ca54f4c80260.setIcon(div_icon_143bc35941a74012631bcf5aed0d536a);
+        
+    
+            var circle_48688d000aa4c9cad470f7c692d8b03b = L.circle(
+                [22.396428, 114.109497],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 39500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_f7b1bfa936db126170a26197f09cc9e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1223b13b0739ac8f37efcee3e3baa34c = $(`<div id="html_1223b13b0739ac8f37efcee3e3baa34c" style="width: 100.0%; height: 100.0%;">hong kong Paper Count:79</div>`)[0];
+                popup_f7b1bfa936db126170a26197f09cc9e9.setContent(html_1223b13b0739ac8f37efcee3e3baa34c);
+            
+        
+
+        circle_48688d000aa4c9cad470f7c692d8b03b.bindPopup(popup_f7b1bfa936db126170a26197f09cc9e9)
+        ;
+
+        
+    
+    
+            var marker_d95cf89794ad13f885b213b5a4681cea = L.marker(
+                [22.396428, 114.109497],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_06edacd780869d57359a6ae948c949a9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e79\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_d95cf89794ad13f885b213b5a4681cea.setIcon(div_icon_06edacd780869d57359a6ae948c949a9);
+        
+    
+            var circle_833ada5041c0cb9e92142dcfe5ded02f = L.circle(
+                [56.26392, 9.501785],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_0b28a78656fd336a5d416cea5a7fe566 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62f8d3817a2f3ee5005df972c9190c9a = $(`<div id="html_62f8d3817a2f3ee5005df972c9190c9a" style="width: 100.0%; height: 100.0%;">denmark Paper Count:73</div>`)[0];
+                popup_0b28a78656fd336a5d416cea5a7fe566.setContent(html_62f8d3817a2f3ee5005df972c9190c9a);
+            
+        
+
+        circle_833ada5041c0cb9e92142dcfe5ded02f.bindPopup(popup_0b28a78656fd336a5d416cea5a7fe566)
+        ;
+
+        
+    
+    
+            var marker_7c34f44539703125b48dd9468ae54d82 = L.marker(
+                [56.26392, 9.501785],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_293527e509c972e37c8cab2046d8d38e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e73\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_7c34f44539703125b48dd9468ae54d82.setIcon(div_icon_293527e509c972e37c8cab2046d8d38e);
+        
+    
+            var circle_d9730f56ef7529e458d44a2c532ff7fa = L.circle(
+                [-0.789275, 113.921327],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ba481909de4aea1eeb352f703d31e177 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f9689b2858c5a2332992eb652a2c553 = $(`<div id="html_4f9689b2858c5a2332992eb652a2c553" style="width: 100.0%; height: 100.0%;">indonesia Paper Count:73</div>`)[0];
+                popup_ba481909de4aea1eeb352f703d31e177.setContent(html_4f9689b2858c5a2332992eb652a2c553);
+            
+        
+
+        circle_d9730f56ef7529e458d44a2c532ff7fa.bindPopup(popup_ba481909de4aea1eeb352f703d31e177)
+        ;
+
+        
+    
+    
+            var marker_23273da0e7cb8789f3c7d457df5cd976 = L.marker(
+                [-0.789275, 113.921327],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_da29b1c961174afedb4fa0816af639e1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e73\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_23273da0e7cb8789f3c7d457df5cd976.setIcon(div_icon_da29b1c961174afedb4fa0816af639e1);
+        
+    
+            var circle_fc860162d61aa5f8b19930e88740b2dd = L.circle(
+                [53.41291, -8.24389],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_eebe5ba1396538945a28234ef617b9fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_157f96f0f392df7df148f8e65491cb71 = $(`<div id="html_157f96f0f392df7df148f8e65491cb71" style="width: 100.0%; height: 100.0%;">ireland Paper Count:72</div>`)[0];
+                popup_eebe5ba1396538945a28234ef617b9fa.setContent(html_157f96f0f392df7df148f8e65491cb71);
+            
+        
+
+        circle_fc860162d61aa5f8b19930e88740b2dd.bindPopup(popup_eebe5ba1396538945a28234ef617b9fa)
+        ;
+
+        
+    
+    
+            var marker_35099238b759c37dc62e8e6fb2b9b18e = L.marker(
+                [53.41291, -8.24389],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_6417a29046c38a8989bbce6a0b8f1764 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e72\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_35099238b759c37dc62e8e6fb2b9b18e.setIcon(div_icon_6417a29046c38a8989bbce6a0b8f1764);
+        
+    
+            var circle_93c8431820149ae45c3dc19b44c5a72d = L.circle(
+                [-40.900557, 174.885971],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_9da0a4c2ad10278dbc049313d16c6d91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcf52ce02f5befc891ef1a9a2c2d4db4 = $(`<div id="html_bcf52ce02f5befc891ef1a9a2c2d4db4" style="width: 100.0%; height: 100.0%;">new zealand Paper Count:71</div>`)[0];
+                popup_9da0a4c2ad10278dbc049313d16c6d91.setContent(html_bcf52ce02f5befc891ef1a9a2c2d4db4);
+            
+        
+
+        circle_93c8431820149ae45c3dc19b44c5a72d.bindPopup(popup_9da0a4c2ad10278dbc049313d16c6d91)
+        ;
+
+        
+    
+    
+            var marker_ce01b1ca756b4107131ec3f6f77398fa = L.marker(
+                [-40.900557, 174.885971],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_a64d24b39779ce2e86c596ca98b886f8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e71\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_ce01b1ca756b4107131ec3f6f77398fa.setIcon(div_icon_a64d24b39779ce2e86c596ca98b886f8);
+        
+    
+            var circle_ea95c8e7e46d0554f086854bca53f3d9 = L.circle(
+                [51.919438, 19.145136],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_3c38b9788bc3e315aff8ebed75594661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b76fb00fe8532d2d9f8f0c91c046277c = $(`<div id="html_b76fb00fe8532d2d9f8f0c91c046277c" style="width: 100.0%; height: 100.0%;">poland Paper Count:70</div>`)[0];
+                popup_3c38b9788bc3e315aff8ebed75594661.setContent(html_b76fb00fe8532d2d9f8f0c91c046277c);
+            
+        
+
+        circle_ea95c8e7e46d0554f086854bca53f3d9.bindPopup(popup_3c38b9788bc3e315aff8ebed75594661)
+        ;
+
+        
+    
+    
+            var marker_0d9bc7cc8e685436fa0cb1f9cac05155 = L.marker(
+                [51.919438, 19.145136],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_6c10d0ed3185e489de71a624fea14519 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e70\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_0d9bc7cc8e685436fa0cb1f9cac05155.setIcon(div_icon_6c10d0ed3185e489de71a624fea14519);
+        
+    
+            var circle_602bab25c05c356807876cc665b3f50a = L.circle(
+                [38.963745, 35.243322],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 32500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_55d712d7a197ccd5fb2873dde9c99db0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7a45e1c381059823a32b1d8cfe5c059 = $(`<div id="html_b7a45e1c381059823a32b1d8cfe5c059" style="width: 100.0%; height: 100.0%;">turkey Paper Count:65</div>`)[0];
+                popup_55d712d7a197ccd5fb2873dde9c99db0.setContent(html_b7a45e1c381059823a32b1d8cfe5c059);
+            
+        
+
+        circle_602bab25c05c356807876cc665b3f50a.bindPopup(popup_55d712d7a197ccd5fb2873dde9c99db0)
+        ;
+
+        
+    
+    
+            var marker_da07761ba1f6b52b07b662dc645bb5f9 = L.marker(
+                [38.963745, 35.243322],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_e6d96b8c39e6ea61ab04d5292e57e623 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e65\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_da07761ba1f6b52b07b662dc645bb5f9.setIcon(div_icon_e6d96b8c39e6ea61ab04d5292e57e623);
+        
+    
+            var circle_851aaf4e587a1907af917034bd0b88f6 = L.circle(
+                [45.943161, 24.96676],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_c268a60203ce43069948ceb3c117ab98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a38ed8764999ce6f782fe71f95263ea8 = $(`<div id="html_a38ed8764999ce6f782fe71f95263ea8" style="width: 100.0%; height: 100.0%;">romania Paper Count:63</div>`)[0];
+                popup_c268a60203ce43069948ceb3c117ab98.setContent(html_a38ed8764999ce6f782fe71f95263ea8);
+            
+        
+
+        circle_851aaf4e587a1907af917034bd0b88f6.bindPopup(popup_c268a60203ce43069948ceb3c117ab98)
+        ;
+
+        
+    
+    
+            var marker_65d1a88e92c4d396c1a2eec7f2ddf173 = L.marker(
+                [45.943161, 24.96676],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_73d5ee057a8c2f369a097e92ce140832 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e63\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_65d1a88e92c4d396c1a2eec7f2ddf173.setIcon(div_icon_73d5ee057a8c2f369a097e92ce140832);
+        
+    
+            var circle_fbf05f8b855515be7e5675e68e845181 = L.circle(
+                [39.074208, 21.824312],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_1642af16acf7eceacb18cd8f5183e35a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8781311e7781ce44bda68a679429962 = $(`<div id="html_d8781311e7781ce44bda68a679429962" style="width: 100.0%; height: 100.0%;">greece Paper Count:56</div>`)[0];
+                popup_1642af16acf7eceacb18cd8f5183e35a.setContent(html_d8781311e7781ce44bda68a679429962);
+            
+        
+
+        circle_fbf05f8b855515be7e5675e68e845181.bindPopup(popup_1642af16acf7eceacb18cd8f5183e35a)
+        ;
+
+        
+    
+    
+            var marker_b01ae766141bb9d7e44b96174b769a92 = L.marker(
+                [39.074208, 21.824312],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_dd4d13e31f845930e55b2ad01922be2d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e56\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_b01ae766141bb9d7e44b96174b769a92.setIcon(div_icon_dd4d13e31f845930e55b2ad01922be2d);
+        
+    
+            var circle_149696ddba60b134b2b91ca99f73e59c = L.circle(
+                [1.352083, 103.819836],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_bb47333597cf0846089b20a797fd8cbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1424b658c7fe8c0a353c3d58caa8ed18 = $(`<div id="html_1424b658c7fe8c0a353c3d58caa8ed18" style="width: 100.0%; height: 100.0%;">singapore Paper Count:56</div>`)[0];
+                popup_bb47333597cf0846089b20a797fd8cbe.setContent(html_1424b658c7fe8c0a353c3d58caa8ed18);
+            
+        
+
+        circle_149696ddba60b134b2b91ca99f73e59c.bindPopup(popup_bb47333597cf0846089b20a797fd8cbe)
+        ;
+
+        
+    
+    
+            var marker_a508d9852b204c75e4d53956130cd530 = L.marker(
+                [1.352083, 103.819836],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_fd84e7a9b2287236fd08b8f6fd3bedad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e56\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_a508d9852b204c75e4d53956130cd530.setIcon(div_icon_fd84e7a9b2287236fd08b8f6fd3bedad);
+        
+    
+            var circle_c8ca65a12b09df6abec755c1d8d8dd13 = L.circle(
+                [23.885942, 45.079162],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ad80c564e828f2a4af1c32d7050b50cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdb108e2c984d4414053e704f0cfb5bd = $(`<div id="html_bdb108e2c984d4414053e704f0cfb5bd" style="width: 100.0%; height: 100.0%;">saudi arabia Paper Count:54</div>`)[0];
+                popup_ad80c564e828f2a4af1c32d7050b50cd.setContent(html_bdb108e2c984d4414053e704f0cfb5bd);
+            
+        
+
+        circle_c8ca65a12b09df6abec755c1d8d8dd13.bindPopup(popup_ad80c564e828f2a4af1c32d7050b50cd)
+        ;
+
+        
+    
+    
+            var marker_f2fba329e82e20c21c7f649973355b3e = L.marker(
+                [23.885942, 45.079162],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_64f6551c2e5e0bb02029b01836fe8456 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e54\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_f2fba329e82e20c21c7f649973355b3e.setIcon(div_icon_64f6551c2e5e0bb02029b01836fe8456);
+        
+    
+            var circle_8973507a7befff13025342d896c0eab3 = L.circle(
+                [49.817492, 15.472962],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_2951994bd1262b8b305d92ec97db07c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e3668e9fd4e02fc87a9a50f4f09c2e4 = $(`<div id="html_2e3668e9fd4e02fc87a9a50f4f09c2e4" style="width: 100.0%; height: 100.0%;">czech republic Paper Count:52</div>`)[0];
+                popup_2951994bd1262b8b305d92ec97db07c5.setContent(html_2e3668e9fd4e02fc87a9a50f4f09c2e4);
+            
+        
+
+        circle_8973507a7befff13025342d896c0eab3.bindPopup(popup_2951994bd1262b8b305d92ec97db07c5)
+        ;
+
+        
+    
+    
+            var marker_2ca7781e306cee5bfd8d1a70c2358fcb = L.marker(
+                [49.817492, 15.472962],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_1dec8c65e70639d8e772d0269c16ee80 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e52\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_2ca7781e306cee5bfd8d1a70c2358fcb.setIcon(div_icon_1dec8c65e70639d8e772d0269c16ee80);
+        
+    
+            var circle_4211840a61b21d72e3ee0b4e59edbaf9 = L.circle(
+                [23.69781, 120.960515],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_99ed4a0ee16b1162b6aa1583f9a31e49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4a0b6dd9bf33fb81f28b99dc790bac6 = $(`<div id="html_c4a0b6dd9bf33fb81f28b99dc790bac6" style="width: 100.0%; height: 100.0%;">taiwan Paper Count:49</div>`)[0];
+                popup_99ed4a0ee16b1162b6aa1583f9a31e49.setContent(html_c4a0b6dd9bf33fb81f28b99dc790bac6);
+            
+        
+
+        circle_4211840a61b21d72e3ee0b4e59edbaf9.bindPopup(popup_99ed4a0ee16b1162b6aa1583f9a31e49)
+        ;
+
+        
+    
+    
+            var marker_477707be95828660cbc30f65254d05a7 = L.marker(
+                [23.69781, 120.960515],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_40e2985508ff56967d36f0e10d466f5e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e49\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_477707be95828660cbc30f65254d05a7.setIcon(div_icon_40e2985508ff56967d36f0e10d466f5e);
+        
+    
+            var circle_2b6782e461538c1b6b8d23994a5e29c2 = L.circle(
+                [-35.675147, -71.542969],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_664f174b69fbb7d510aef2379093fae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa2ac68f784c1fd2c77a6566cfe89f0d = $(`<div id="html_fa2ac68f784c1fd2c77a6566cfe89f0d" style="width: 100.0%; height: 100.0%;">chile Paper Count:48</div>`)[0];
+                popup_664f174b69fbb7d510aef2379093fae6.setContent(html_fa2ac68f784c1fd2c77a6566cfe89f0d);
+            
+        
+
+        circle_2b6782e461538c1b6b8d23994a5e29c2.bindPopup(popup_664f174b69fbb7d510aef2379093fae6)
+        ;
+
+        
+    
+    
+            var marker_60ef92de3fe925f4f85f420dab962a70 = L.marker(
+                [-35.675147, -71.542969],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_a73907474e289f2d94c16cf94d82b391 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e48\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_60ef92de3fe925f4f85f420dab962a70.setIcon(div_icon_a73907474e289f2d94c16cf94d82b391);
+        
+    
+            var circle_d7dc189d65af9371e8d8dbc2b708ece3 = L.circle(
+                [31.046051, 34.851612],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ee377cb35eaca69412c77fb134593353 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a26866461391bb1aa808badd036d62ab = $(`<div id="html_a26866461391bb1aa808badd036d62ab" style="width: 100.0%; height: 100.0%;">israel Paper Count:44</div>`)[0];
+                popup_ee377cb35eaca69412c77fb134593353.setContent(html_a26866461391bb1aa808badd036d62ab);
+            
+        
+
+        circle_d7dc189d65af9371e8d8dbc2b708ece3.bindPopup(popup_ee377cb35eaca69412c77fb134593353)
+        ;
+
+        
+    
+    
+            var marker_2f4a4fb48e1974652469efbfc7ce27c7 = L.marker(
+                [31.046051, 34.851612],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_ef965c311d3d435a798631d04f9cdac1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e44\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_2f4a4fb48e1974652469efbfc7ce27c7.setIcon(div_icon_ef965c311d3d435a798631d04f9cdac1);
+        
+    
+            var circle_753d9b6fb06dfc0ec253c83ad2fa2b11 = L.circle(
+                [23.634501, -102.552784],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_94f3359cf6320d986e91efbd6cd48c42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dabee2f0604e1b48aa5497534ed24344 = $(`<div id="html_dabee2f0604e1b48aa5497534ed24344" style="width: 100.0%; height: 100.0%;">mexico Paper Count:41</div>`)[0];
+                popup_94f3359cf6320d986e91efbd6cd48c42.setContent(html_dabee2f0604e1b48aa5497534ed24344);
+            
+        
+
+        circle_753d9b6fb06dfc0ec253c83ad2fa2b11.bindPopup(popup_94f3359cf6320d986e91efbd6cd48c42)
+        ;
+
+        
+    
+    
+            var marker_15e1261475f8b3dbb8304c320af1ff2b = L.marker(
+                [23.634501, -102.552784],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_59f4c2f0b3f45465fd33fbfb19367dad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e41\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_15e1261475f8b3dbb8304c320af1ff2b.setIcon(div_icon_59f4c2f0b3f45465fd33fbfb19367dad);
+        
+    
+            var circle_ca8cbd7dbb8d387f281ab198ca45f8fb = L.circle(
+                [47.162494, 19.503304],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_b6bd20d26fa22fe17a7f010a5f001bbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f7b5d2b3506823b13d72a0e35d9a6aa = $(`<div id="html_2f7b5d2b3506823b13d72a0e35d9a6aa" style="width: 100.0%; height: 100.0%;">hungary Paper Count:40</div>`)[0];
+                popup_b6bd20d26fa22fe17a7f010a5f001bbb.setContent(html_2f7b5d2b3506823b13d72a0e35d9a6aa);
+            
+        
+
+        circle_ca8cbd7dbb8d387f281ab198ca45f8fb.bindPopup(popup_b6bd20d26fa22fe17a7f010a5f001bbb)
+        ;
+
+        
+    
+    
+            var marker_473fd68b06400d2ff8c41aaf89bec261 = L.marker(
+                [47.162494, 19.503304],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_bdd8fb2d8f584d892f79c3bc7412d17e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e40\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_473fd68b06400d2ff8c41aaf89bec261.setIcon(div_icon_bdd8fb2d8f584d892f79c3bc7412d17e);
+        
+    
+            var circle_b63b4d19daae49f9ba90e1b1f4cf8091 = L.circle(
+                [30.375321, 69.345116],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_16fee35446e8985a90c858232f968274 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f6266a8b344c6ab173f3813dc6efe3b = $(`<div id="html_7f6266a8b344c6ab173f3813dc6efe3b" style="width: 100.0%; height: 100.0%;">pakistan Paper Count:40</div>`)[0];
+                popup_16fee35446e8985a90c858232f968274.setContent(html_7f6266a8b344c6ab173f3813dc6efe3b);
+            
+        
+
+        circle_b63b4d19daae49f9ba90e1b1f4cf8091.bindPopup(popup_16fee35446e8985a90c858232f968274)
+        ;
+
+        
+    
+    
+            var marker_828461d5bbf16a2aac62c7ff6e4bc177 = L.marker(
+                [30.375321, 69.345116],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_58a731e8a108dc3086c7af93eda6615e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e40\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_828461d5bbf16a2aac62c7ff6e4bc177.setIcon(div_icon_58a731e8a108dc3086c7af93eda6615e);
+        
+    
+            var circle_8c2d6939fff72a7bb9423f10c2a60a86 = L.circle(
+                [9.081999, 8.675277],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_c4d3648c7041cb84be3838dd0c57f8da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_502ca216d419340cedb086b4f22b4119 = $(`<div id="html_502ca216d419340cedb086b4f22b4119" style="width: 100.0%; height: 100.0%;">nigeria Paper Count:36</div>`)[0];
+                popup_c4d3648c7041cb84be3838dd0c57f8da.setContent(html_502ca216d419340cedb086b4f22b4119);
+            
+        
+
+        circle_8c2d6939fff72a7bb9423f10c2a60a86.bindPopup(popup_c4d3648c7041cb84be3838dd0c57f8da)
+        ;
+
+        
+    
+    
+            var marker_37edac4d31ade2d9095eb829eb46ce77 = L.marker(
+                [9.081999, 8.675277],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_0e4932b7ff4409a0e48aa24b5323df7f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e36\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_37edac4d31ade2d9095eb829eb46ce77.setIcon(div_icon_0e4932b7ff4409a0e48aa24b5323df7f);
+        
+    
+            var circle_83ae69331767f7206f081f3dbec8a517 = L.circle(
+                [32.427908, 53.688046],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_bb6339d5bb8a1bcbcc608ba526f33236 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00506f2f5428b76bec05c26e51d51564 = $(`<div id="html_00506f2f5428b76bec05c26e51d51564" style="width: 100.0%; height: 100.0%;">iran Paper Count:35</div>`)[0];
+                popup_bb6339d5bb8a1bcbcc608ba526f33236.setContent(html_00506f2f5428b76bec05c26e51d51564);
+            
+        
+
+        circle_83ae69331767f7206f081f3dbec8a517.bindPopup(popup_bb6339d5bb8a1bcbcc608ba526f33236)
+        ;
+
+        
+    
+    
+            var marker_a98b89ef3c244a9858dced301df4c723 = L.marker(
+                [32.427908, 53.688046],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_560427bc05ec7008872d4695d1c6bef2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e35\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_a98b89ef3c244a9858dced301df4c723.setIcon(div_icon_560427bc05ec7008872d4695d1c6bef2);
+        
+    
+            var circle_cfc57867175f9fb239b6d75ba6ebf253 = L.circle(
+                [48.379433, 31.16558],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_257bd2bc316058455837850c2af49e1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_405e3d5ace2a52de01c10c1b8c36a098 = $(`<div id="html_405e3d5ace2a52de01c10c1b8c36a098" style="width: 100.0%; height: 100.0%;">ukraine Paper Count:34</div>`)[0];
+                popup_257bd2bc316058455837850c2af49e1b.setContent(html_405e3d5ace2a52de01c10c1b8c36a098);
+            
+        
+
+        circle_cfc57867175f9fb239b6d75ba6ebf253.bindPopup(popup_257bd2bc316058455837850c2af49e1b)
+        ;
+
+        
+    
+    
+            var marker_bef2b7e9ca3c9c9e8424e2be75c3375e = L.marker(
+                [48.379433, 31.16558],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_ddced028ea5ab5516daf9af02a9043cc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e34\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_bef2b7e9ca3c9c9e8424e2be75c3375e.setIcon(div_icon_ddced028ea5ab5516daf9af02a9043cc);
+        
+    
+            var circle_a8dffc7700f62b2a11f5edfa86d17663 = L.circle(
+                [23.424076, 53.847818],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ae1f8cb35896282a247d6582405bf133 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_197d82c80465fa7860c58b236ba2ab30 = $(`<div id="html_197d82c80465fa7860c58b236ba2ab30" style="width: 100.0%; height: 100.0%;">united arab emirates Paper Count:34</div>`)[0];
+                popup_ae1f8cb35896282a247d6582405bf133.setContent(html_197d82c80465fa7860c58b236ba2ab30);
+            
+        
+
+        circle_a8dffc7700f62b2a11f5edfa86d17663.bindPopup(popup_ae1f8cb35896282a247d6582405bf133)
+        ;
+
+        
+    
+    
+            var marker_1d08fbdbfb84f43d838e9d73fa58e5b9 = L.marker(
+                [23.424076, 53.847818],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_abf4a6740e90e17c48cbf2d4c2ae9360 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e34\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_1d08fbdbfb84f43d838e9d73fa58e5b9.setIcon(div_icon_abf4a6740e90e17c48cbf2d4c2ae9360);
+        
+    
+            var circle_bd7bcc977a31d12ca7b8700e5a66d8ed = L.circle(
+                [4.570868, -74.297333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_01ec15e1d7d85cfd13075bd5838f773d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aa9b1cded929f838f7aec34c118d893 = $(`<div id="html_3aa9b1cded929f838f7aec34c118d893" style="width: 100.0%; height: 100.0%;">colombia Paper Count:30</div>`)[0];
+                popup_01ec15e1d7d85cfd13075bd5838f773d.setContent(html_3aa9b1cded929f838f7aec34c118d893);
+            
+        
+
+        circle_bd7bcc977a31d12ca7b8700e5a66d8ed.bindPopup(popup_01ec15e1d7d85cfd13075bd5838f773d)
+        ;
+
+        
+    
+    
+            var marker_465573d3adab48216ee45c64c74958af = L.marker(
+                [4.570868, -74.297333],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_428c80cbc43c0238322971d7c6163b0c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e30\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_465573d3adab48216ee45c64c74958af.setIcon(div_icon_428c80cbc43c0238322971d7c6163b0c);
+        
+    
+            var circle_7ffca3fc250c1d58e43b42c9c60069f3 = L.circle(
+                [-9.189967, -75.015152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_3b1eee84c296f08e7cc0428129fd8ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5472d1162968073961e1ebef4e5f3a1 = $(`<div id="html_f5472d1162968073961e1ebef4e5f3a1" style="width: 100.0%; height: 100.0%;">peru Paper Count:30</div>`)[0];
+                popup_3b1eee84c296f08e7cc0428129fd8ee5.setContent(html_f5472d1162968073961e1ebef4e5f3a1);
+            
+        
+
+        circle_7ffca3fc250c1d58e43b42c9c60069f3.bindPopup(popup_3b1eee84c296f08e7cc0428129fd8ee5)
+        ;
+
+        
+    
+    
+            var marker_c5abbafb47edbf151f9a481f17430565 = L.marker(
+                [-9.189967, -75.015152],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_4f8860c7aa1d2f3a6c928578d6fb950f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e30\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_c5abbafb47edbf151f9a481f17430565.setIcon(div_icon_4f8860c7aa1d2f3a6c928578d6fb950f);
+        
+    
+            var circle_a80a28acaa52a6719e999ee48cb5cad0 = L.circle(
+                [12.879721, 121.774017],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_c749a51fdcabd40573af0f257dae8b57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_854f72130e7964d689d9ef699e20b22b = $(`<div id="html_854f72130e7964d689d9ef699e20b22b" style="width: 100.0%; height: 100.0%;">philippines Paper Count:29</div>`)[0];
+                popup_c749a51fdcabd40573af0f257dae8b57.setContent(html_854f72130e7964d689d9ef699e20b22b);
+            
+        
+
+        circle_a80a28acaa52a6719e999ee48cb5cad0.bindPopup(popup_c749a51fdcabd40573af0f257dae8b57)
+        ;
+
+        
+    
+    
+            var marker_dd2e30a5949d906524b8c8ccd2674a1b = L.marker(
+                [12.879721, 121.774017],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_37006bcbcb572b3408e435b5536bd28c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e29\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_dd2e30a5949d906524b8c8ccd2674a1b.setIcon(div_icon_37006bcbcb572b3408e435b5536bd28c);
+        
+    
+            var circle_757a75f93e712c51ddfa0dca1854a304 = L.circle(
+                [15.870032, 100.992541],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_21d6fb04ea6525822a789d74e7827d75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56b52c8514861b2b0e093af966f57df8 = $(`<div id="html_56b52c8514861b2b0e093af966f57df8" style="width: 100.0%; height: 100.0%;">thailand Paper Count:29</div>`)[0];
+                popup_21d6fb04ea6525822a789d74e7827d75.setContent(html_56b52c8514861b2b0e093af966f57df8);
+            
+        
+
+        circle_757a75f93e712c51ddfa0dca1854a304.bindPopup(popup_21d6fb04ea6525822a789d74e7827d75)
+        ;
+
+        
+    
+    
+            var marker_a411d9a0443e20348b39cca731c77c5a = L.marker(
+                [15.870032, 100.992541],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_8bbc077577a8abdfa0295758b4dda5ad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e29\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_a411d9a0443e20348b39cca731c77c5a.setIcon(div_icon_8bbc077577a8abdfa0295758b4dda5ad);
+        
+    
+            var circle_62f8f669a450d873bfd1859c1e20b9ea = L.circle(
+                [45.1, 15.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_073d481f628e4ef742cfb6f608db8b13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed855a69e17b6fb44f0d700859b2478d = $(`<div id="html_ed855a69e17b6fb44f0d700859b2478d" style="width: 100.0%; height: 100.0%;">croatia Paper Count:26</div>`)[0];
+                popup_073d481f628e4ef742cfb6f608db8b13.setContent(html_ed855a69e17b6fb44f0d700859b2478d);
+            
+        
+
+        circle_62f8f669a450d873bfd1859c1e20b9ea.bindPopup(popup_073d481f628e4ef742cfb6f608db8b13)
+        ;
+
+        
+    
+    
+            var marker_9179548389a34c9727994517d425364a = L.marker(
+                [45.1, 15.2],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_463840fa250194aeaa1c412c60df075c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e26\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_9179548389a34c9727994517d425364a.setIcon(div_icon_463840fa250194aeaa1c412c60df075c);
+        
+    
+            var circle_789a895c87d54e58d09c4bda446ba336 = L.circle(
+                [48.669026, 19.699024],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_fd8003161d7c2632536b9eb7318a92c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0615ba66527bccddb888b8712fcea894 = $(`<div id="html_0615ba66527bccddb888b8712fcea894" style="width: 100.0%; height: 100.0%;">slovakia Paper Count:26</div>`)[0];
+                popup_fd8003161d7c2632536b9eb7318a92c6.setContent(html_0615ba66527bccddb888b8712fcea894);
+            
+        
+
+        circle_789a895c87d54e58d09c4bda446ba336.bindPopup(popup_fd8003161d7c2632536b9eb7318a92c6)
+        ;
+
+        
+    
+    
+            var marker_78d9d38b1e75082d7ae04c89c3690545 = L.marker(
+                [48.669026, 19.699024],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_6d55f871ac24c364ce9adfa2669c2d38 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e26\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_78d9d38b1e75082d7ae04c89c3690545.setIcon(div_icon_6d55f871ac24c364ce9adfa2669c2d38);
+        
+    
+            var circle_91a2943bc5b29075cf712dc706a21e83 = L.circle(
+                [55.169438, 23.881275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_b30eb78bbc19fb00e1216bae501471ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93e6490cddf8f2e6719b2e9257139638 = $(`<div id="html_93e6490cddf8f2e6719b2e9257139638" style="width: 100.0%; height: 100.0%;">lithuania Paper Count:25</div>`)[0];
+                popup_b30eb78bbc19fb00e1216bae501471ab.setContent(html_93e6490cddf8f2e6719b2e9257139638);
+            
+        
+
+        circle_91a2943bc5b29075cf712dc706a21e83.bindPopup(popup_b30eb78bbc19fb00e1216bae501471ab)
+        ;
+
+        
+    
+    
+            var marker_3850277f500a2401bcae87575897c819 = L.marker(
+                [55.169438, 23.881275],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_3a5f816fd922c6f5c3c3e7b5e0f04dce = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e25\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_3850277f500a2401bcae87575897c819.setIcon(div_icon_3a5f816fd922c6f5c3c3e7b5e0f04dce);
+        
+    
+            var circle_eb3ad06386b6e9b35698838763e8e728 = L.circle(
+                [26.820553, 30.802498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_0f067561c300dee3947867b177a63ce7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8465c3c68461caf2edbf1e7a09f64df4 = $(`<div id="html_8465c3c68461caf2edbf1e7a09f64df4" style="width: 100.0%; height: 100.0%;">egypt Paper Count:21</div>`)[0];
+                popup_0f067561c300dee3947867b177a63ce7.setContent(html_8465c3c68461caf2edbf1e7a09f64df4);
+            
+        
+
+        circle_eb3ad06386b6e9b35698838763e8e728.bindPopup(popup_0f067561c300dee3947867b177a63ce7)
+        ;
+
+        
+    
+    
+            var marker_f20facb0d51356cc62bac07d950be97c = L.marker(
+                [26.820553, 30.802498],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_c09966398f0338c738ff5217d903f4a5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e21\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_f20facb0d51356cc62bac07d950be97c.setIcon(div_icon_c09966398f0338c738ff5217d903f4a5);
+        
+    
+            var circle_bef8b3d2ead319f64e4cab7882f8d43e = L.circle(
+                [7.946527, -1.023194],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_9c8ef5e6baf8b9846f162c7aff955afc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_418ce4b327c389303982d40620ce6739 = $(`<div id="html_418ce4b327c389303982d40620ce6739" style="width: 100.0%; height: 100.0%;">ghana Paper Count:19</div>`)[0];
+                popup_9c8ef5e6baf8b9846f162c7aff955afc.setContent(html_418ce4b327c389303982d40620ce6739);
+            
+        
+
+        circle_bef8b3d2ead319f64e4cab7882f8d43e.bindPopup(popup_9c8ef5e6baf8b9846f162c7aff955afc)
+        ;
+
+        
+    
+    
+            var marker_eafcf1e59ad044c497a5cfd7eda59813 = L.marker(
+                [7.946527, -1.023194],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_5322e232f888fce92616ed33b967a6f3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e19\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_eafcf1e59ad044c497a5cfd7eda59813.setIcon(div_icon_5322e232f888fce92616ed33b967a6f3);
+        
+    
+            var circle_8bdab1c4b9cdecbe369b730ff6230833 = L.circle(
+                [-1.831239, -78.183406],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_c901a8da6bb17032c2f9f746079ca62b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c80982ecb0a414a0a46f874ae73a43a = $(`<div id="html_7c80982ecb0a414a0a46f874ae73a43a" style="width: 100.0%; height: 100.0%;">ecuador Paper Count:18</div>`)[0];
+                popup_c901a8da6bb17032c2f9f746079ca62b.setContent(html_7c80982ecb0a414a0a46f874ae73a43a);
+            
+        
+
+        circle_8bdab1c4b9cdecbe369b730ff6230833.bindPopup(popup_c901a8da6bb17032c2f9f746079ca62b)
+        ;
+
+        
+    
+    
+            var marker_7c411c07bdfe196184f4aea7ead10ce4 = L.marker(
+                [-1.831239, -78.183406],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_66d3f088af9171d666c924741d856ee0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e18\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_7c411c07bdfe196184f4aea7ead10ce4.setIcon(div_icon_66d3f088af9171d666c924741d856ee0);
+        
+    
+            var circle_f2a916329112cd7abe3534c66b5df32a = L.circle(
+                [58.595272, 25.013607],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_90e864796be77adb5b6947ae3223ffe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41327d22ce52d5686c5d7593c5a3674d = $(`<div id="html_41327d22ce52d5686c5d7593c5a3674d" style="width: 100.0%; height: 100.0%;">estonia Paper Count:17</div>`)[0];
+                popup_90e864796be77adb5b6947ae3223ffe1.setContent(html_41327d22ce52d5686c5d7593c5a3674d);
+            
+        
+
+        circle_f2a916329112cd7abe3534c66b5df32a.bindPopup(popup_90e864796be77adb5b6947ae3223ffe1)
+        ;
+
+        
+    
+    
+            var marker_a151687c7275b9f72f8b33480d2efd23 = L.marker(
+                [58.595272, 25.013607],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_a3fb8f32b35299ea0bf39c022e7b1626 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e17\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_a151687c7275b9f72f8b33480d2efd23.setIcon(div_icon_a3fb8f32b35299ea0bf39c022e7b1626);
+        
+    
+            var circle_49d0c507b98ee615558e10039b294701 = L.circle(
+                [30.585164, 36.238414],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_e2b0e75743c3ab3dab8fbf069d9ecd38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bdd1fff1efad527261f5861d14eab32 = $(`<div id="html_9bdd1fff1efad527261f5861d14eab32" style="width: 100.0%; height: 100.0%;">jordan Paper Count:17</div>`)[0];
+                popup_e2b0e75743c3ab3dab8fbf069d9ecd38.setContent(html_9bdd1fff1efad527261f5861d14eab32);
+            
+        
+
+        circle_49d0c507b98ee615558e10039b294701.bindPopup(popup_e2b0e75743c3ab3dab8fbf069d9ecd38)
+        ;
+
+        
+    
+    
+            var marker_30620c1a7a9632af58965bb16cebc39b = L.marker(
+                [30.585164, 36.238414],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_1d2229d0a9329961367793a388e774ee = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e17\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_30620c1a7a9632af58965bb16cebc39b.setIcon(div_icon_1d2229d0a9329961367793a388e774ee);
+        
+    
+            var circle_55ec17774ec5c3d7ba331800351058cd = L.circle(
+                [44.016521, 21.005859],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_221316bbcfbacaf8bf77b2c541fd4b89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42ee8252260bfd21f12140b6671cce6b = $(`<div id="html_42ee8252260bfd21f12140b6671cce6b" style="width: 100.0%; height: 100.0%;">serbia Paper Count:17</div>`)[0];
+                popup_221316bbcfbacaf8bf77b2c541fd4b89.setContent(html_42ee8252260bfd21f12140b6671cce6b);
+            
+        
+
+        circle_55ec17774ec5c3d7ba331800351058cd.bindPopup(popup_221316bbcfbacaf8bf77b2c541fd4b89)
+        ;
+
+        
+    
+    
+            var marker_c9e4b0a71b367993221d49832e1fc6ca = L.marker(
+                [44.016521, 21.005859],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_60b6bec924c9aef3d72148c6deab0ab6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e17\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_c9e4b0a71b367993221d49832e1fc6ca.setIcon(div_icon_60b6bec924c9aef3d72148c6deab0ab6);
+        
+    
+            var circle_2d4ba5cbd1e69d027b92e217f2cfeb8c = L.circle(
+                [35.126413, 33.429859],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_e8d982bb71a78e1f112b971fbfe56ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aceb4fe29817ba270c853b6847d6ada0 = $(`<div id="html_aceb4fe29817ba270c853b6847d6ada0" style="width: 100.0%; height: 100.0%;">cyprus Paper Count:16</div>`)[0];
+                popup_e8d982bb71a78e1f112b971fbfe56ac7.setContent(html_aceb4fe29817ba270c853b6847d6ada0);
+            
+        
+
+        circle_2d4ba5cbd1e69d027b92e217f2cfeb8c.bindPopup(popup_e8d982bb71a78e1f112b971fbfe56ac7)
+        ;
+
+        
+    
+    
+            var marker_aaacd5b4afbeab5066d491b6542d502e = L.marker(
+                [35.126413, 33.429859],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_68c236e747c6c26a349a0a0e9971b162 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e16\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_aaacd5b4afbeab5066d491b6542d502e.setIcon(div_icon_68c236e747c6c26a349a0a0e9971b162);
+        
+    
+            var circle_d2c62df88366aeb62b508446b8f902c3 = L.circle(
+                [46.151241, 14.995463],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_fd17eec379987cf1f2d7d545afe1499c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70ef765cd8e0d585d4cb68462b138049 = $(`<div id="html_70ef765cd8e0d585d4cb68462b138049" style="width: 100.0%; height: 100.0%;">slovenia Paper Count:16</div>`)[0];
+                popup_fd17eec379987cf1f2d7d545afe1499c.setContent(html_70ef765cd8e0d585d4cb68462b138049);
+            
+        
+
+        circle_d2c62df88366aeb62b508446b8f902c3.bindPopup(popup_fd17eec379987cf1f2d7d545afe1499c)
+        ;
+
+        
+    
+    
+            var marker_fd14726615b6b0ee262f8a27e48fbe41 = L.marker(
+                [46.151241, 14.995463],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_1c49bc74fdb950bb87217c41d51a3526 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e16\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_fd14726615b6b0ee262f8a27e48fbe41.setIcon(div_icon_1c49bc74fdb950bb87217c41d51a3526);
+        
+    
+            var circle_13705abea3d5f50b68c11429fa2f33e9 = L.circle(
+                [23.684994, 90.356331],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_847fb1eeb5f7af71422f8fbff542cc72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62d4c77341be7536b80c994e18265894 = $(`<div id="html_62d4c77341be7536b80c994e18265894" style="width: 100.0%; height: 100.0%;">bangladesh Paper Count:15</div>`)[0];
+                popup_847fb1eeb5f7af71422f8fbff542cc72.setContent(html_62d4c77341be7536b80c994e18265894);
+            
+        
+
+        circle_13705abea3d5f50b68c11429fa2f33e9.bindPopup(popup_847fb1eeb5f7af71422f8fbff542cc72)
+        ;
+
+        
+    
+    
+            var marker_e2d23739010d7cb6a4afec584f4147af = L.marker(
+                [23.684994, 90.356331],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_01923250e4d068441b4219c36a26bc1a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e15\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_e2d23739010d7cb6a4afec584f4147af.setIcon(div_icon_01923250e4d068441b4219c36a26bc1a);
+        
+    
+            var circle_c303621dbeca9a99d0d5f83b47794edd = L.circle(
+                [22.198745, 113.543873],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_164359ca23f0c95983f947f4fe962a6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7095e1b8c91a7c9c100041debedfdf63 = $(`<div id="html_7095e1b8c91a7c9c100041debedfdf63" style="width: 100.0%; height: 100.0%;">macao Paper Count:15</div>`)[0];
+                popup_164359ca23f0c95983f947f4fe962a6b.setContent(html_7095e1b8c91a7c9c100041debedfdf63);
+            
+        
+
+        circle_c303621dbeca9a99d0d5f83b47794edd.bindPopup(popup_164359ca23f0c95983f947f4fe962a6b)
+        ;
+
+        
+    
+    
+            var marker_07cac7f15a296d2cc2643627d822d619 = L.marker(
+                [22.198745, 113.543873],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_50c67bb423a616bf47d77c041a32831e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e15\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_07cac7f15a296d2cc2643627d822d619.setIcon(div_icon_50c67bb423a616bf47d77c041a32831e);
+        
+    
+            var circle_c16a6c6116d4f1ef65de990459b833be = L.circle(
+                [14.058324, 108.277199],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_19f862358860a88ab8bf00b37a0a209a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d610def4c01e0e0404babe365243bd4d = $(`<div id="html_d610def4c01e0e0404babe365243bd4d" style="width: 100.0%; height: 100.0%;">viet nam Paper Count:15</div>`)[0];
+                popup_19f862358860a88ab8bf00b37a0a209a.setContent(html_d610def4c01e0e0404babe365243bd4d);
+            
+        
+
+        circle_c16a6c6116d4f1ef65de990459b833be.bindPopup(popup_19f862358860a88ab8bf00b37a0a209a)
+        ;
+
+        
+    
+    
+            var marker_8ba8e235ab5c01daf7c99d95e02700cb = L.marker(
+                [14.058324, 108.277199],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_77f2f6e14dbaaad18468cd0664a4fe8b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e15\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_8ba8e235ab5c01daf7c99d95e02700cb.setIcon(div_icon_77f2f6e14dbaaad18468cd0664a4fe8b);
+        
+    
+            var circle_4173fa58e6be0703b5bd712c607b29ff = L.circle(
+                [-38.416097, -63.616672],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_632bddf5842b1f8fead916b92f14382f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d832d257ec1566a6997e0df8c224223f = $(`<div id="html_d832d257ec1566a6997e0df8c224223f" style="width: 100.0%; height: 100.0%;">argentina Paper Count:14</div>`)[0];
+                popup_632bddf5842b1f8fead916b92f14382f.setContent(html_d832d257ec1566a6997e0df8c224223f);
+            
+        
+
+        circle_4173fa58e6be0703b5bd712c607b29ff.bindPopup(popup_632bddf5842b1f8fead916b92f14382f)
+        ;
+
+        
+    
+    
+            var marker_f41b315b3cf517b31d82e62a422f622c = L.marker(
+                [-38.416097, -63.616672],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_143e8ba2bc0d382d5075ced0f2c2f895 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e14\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_f41b315b3cf517b31d82e62a422f622c.setIcon(div_icon_143e8ba2bc0d382d5075ced0f2c2f895);
+        
+    
+            var circle_bc8ab98f17f596bc5e9065d9101f926b = L.circle(
+                [56.879635, 24.603189],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_7e70c27b88bb6dd470df8691c3ffd855 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a383c788ffd59bab7117aa6388f3809 = $(`<div id="html_6a383c788ffd59bab7117aa6388f3809" style="width: 100.0%; height: 100.0%;">latvia Paper Count:14</div>`)[0];
+                popup_7e70c27b88bb6dd470df8691c3ffd855.setContent(html_6a383c788ffd59bab7117aa6388f3809);
+            
+        
+
+        circle_bc8ab98f17f596bc5e9065d9101f926b.bindPopup(popup_7e70c27b88bb6dd470df8691c3ffd855)
+        ;
+
+        
+    
+    
+            var marker_d063dcb5f3c7c831db758d77cdcccf9b = L.marker(
+                [56.879635, 24.603189],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_10e77afcdcffda1f0ccf3b6b2ac01555 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e14\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_d063dcb5f3c7c831db758d77cdcccf9b.setIcon(div_icon_10e77afcdcffda1f0ccf3b6b2ac01555);
+        
+    
+            var circle_fcef27895c2bbcbb42b5107dc4812b75 = L.circle(
+                [48.019573, 66.923684],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_be5cb8fa17869f4e242db786c66f1bf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c886d6e5c2940369822fc9ddc06cacba = $(`<div id="html_c886d6e5c2940369822fc9ddc06cacba" style="width: 100.0%; height: 100.0%;">kazakhstan Paper Count:13</div>`)[0];
+                popup_be5cb8fa17869f4e242db786c66f1bf5.setContent(html_c886d6e5c2940369822fc9ddc06cacba);
+            
+        
+
+        circle_fcef27895c2bbcbb42b5107dc4812b75.bindPopup(popup_be5cb8fa17869f4e242db786c66f1bf5)
+        ;
+
+        
+    
+    
+            var marker_a8279d674fa2eb85e787ad428796ae1a = L.marker(
+                [48.019573, 66.923684],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_2e1245a2352438f064e3765d596ff72a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e13\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_a8279d674fa2eb85e787ad428796ae1a.setIcon(div_icon_2e1245a2352438f064e3765d596ff72a);
+        
+    
+            var circle_1be96911d5100bb59f2af8e533f1a6da = L.circle(
+                [-0.023559, 37.906193],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_112293239ad2fd6218da4f9d46bd074a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1abeeb139fbc409f78ad9c4702612784 = $(`<div id="html_1abeeb139fbc409f78ad9c4702612784" style="width: 100.0%; height: 100.0%;">kenya Paper Count:11</div>`)[0];
+                popup_112293239ad2fd6218da4f9d46bd074a.setContent(html_1abeeb139fbc409f78ad9c4702612784);
+            
+        
+
+        circle_1be96911d5100bb59f2af8e533f1a6da.bindPopup(popup_112293239ad2fd6218da4f9d46bd074a)
+        ;
+
+        
+    
+    
+            var marker_f35d6ec5f64828785490992d083d6ec0 = L.marker(
+                [-0.023559, 37.906193],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_7d8161dfa3b80d2e2df7301ad24492e1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e11\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_f35d6ec5f64828785490992d083d6ec0.setIcon(div_icon_7d8161dfa3b80d2e2df7301ad24492e1);
+        
+    
+            var circle_c0cc6e325acb74ea0b8cf6877578af20 = L.circle(
+                [33.854721, 35.862285],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_1becef9395adb559f92a2927beae6c30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1746176e46cc17020fccc3a24390ff8b = $(`<div id="html_1746176e46cc17020fccc3a24390ff8b" style="width: 100.0%; height: 100.0%;">lebanon Paper Count:10</div>`)[0];
+                popup_1becef9395adb559f92a2927beae6c30.setContent(html_1746176e46cc17020fccc3a24390ff8b);
+            
+        
+
+        circle_c0cc6e325acb74ea0b8cf6877578af20.bindPopup(popup_1becef9395adb559f92a2927beae6c30)
+        ;
+
+        
+    
+    
+            var marker_60c968390b73f5f3eb8979adf9df944f = L.marker(
+                [33.854721, 35.862285],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_e20311c1099a7d1f24a7c252c38bd62b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e10\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_60c968390b73f5f3eb8979adf9df944f.setIcon(div_icon_e20311c1099a7d1f24a7c252c38bd62b);
+        
+    
+            var circle_2e8add6230797a98124f7124af5b872b = L.circle(
+                [21.512583, 55.923255],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_71e31cc2a7291920e38faa33a034b926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bba58a2db25d0c27617248342213d6f = $(`<div id="html_9bba58a2db25d0c27617248342213d6f" style="width: 100.0%; height: 100.0%;">oman Paper Count:9</div>`)[0];
+                popup_71e31cc2a7291920e38faa33a034b926.setContent(html_9bba58a2db25d0c27617248342213d6f);
+            
+        
+
+        circle_2e8add6230797a98124f7124af5b872b.bindPopup(popup_71e31cc2a7291920e38faa33a034b926)
+        ;
+
+        
+    
+    
+            var marker_63c300dcdd69edb7f8430c0f1659142e = L.marker(
+                [21.512583, 55.923255],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_e30524bc2e944528f550e09611c2c95a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e9\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_63c300dcdd69edb7f8430c0f1659142e.setIcon(div_icon_e30524bc2e944528f550e09611c2c95a);
+        
+    
+            var circle_74142b4d20da44bceadb6ca5f64afdbf = L.circle(
+                [42.733883, 25.48583],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_5fdde7d9f0f27ca82290b7ed88255b01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f130b8dc28ee5c1f83da0aa4d5fa30e = $(`<div id="html_8f130b8dc28ee5c1f83da0aa4d5fa30e" style="width: 100.0%; height: 100.0%;">bulgaria Paper Count:8</div>`)[0];
+                popup_5fdde7d9f0f27ca82290b7ed88255b01.setContent(html_8f130b8dc28ee5c1f83da0aa4d5fa30e);
+            
+        
+
+        circle_74142b4d20da44bceadb6ca5f64afdbf.bindPopup(popup_5fdde7d9f0f27ca82290b7ed88255b01)
+        ;
+
+        
+    
+    
+            var marker_3067704de3ab38f2a2c3f46da4f8702e = L.marker(
+                [42.733883, 25.48583],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_8b6f11796b4a5a2723f0d1d0b4e50e3d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e8\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_3067704de3ab38f2a2c3f46da4f8702e.setIcon(div_icon_8b6f11796b4a5a2723f0d1d0b4e50e3d);
+        
+    
+            var circle_b4d54c04e0513df1ebf4138ef22684b6 = L.circle(
+                [33.223191, 43.679291],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_aeae2324e8c294265a9d1be9e4d41820 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a00f2e0ad42735aada7215a90b4fa177 = $(`<div id="html_a00f2e0ad42735aada7215a90b4fa177" style="width: 100.0%; height: 100.0%;">iraq Paper Count:8</div>`)[0];
+                popup_aeae2324e8c294265a9d1be9e4d41820.setContent(html_a00f2e0ad42735aada7215a90b4fa177);
+            
+        
+
+        circle_b4d54c04e0513df1ebf4138ef22684b6.bindPopup(popup_aeae2324e8c294265a9d1be9e4d41820)
+        ;
+
+        
+    
+    
+            var marker_ece678d9f036d5e94445a93af4bce231 = L.marker(
+                [33.223191, 43.679291],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_8c4a0a7aff4253a825a19b55d533d682 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e8\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_ece678d9f036d5e94445a93af4bce231.setIcon(div_icon_8c4a0a7aff4253a825a19b55d533d682);
+        
+    
+            var circle_281d5768ffea6d8311eae4a393c069bd = L.circle(
+                [7.873054, 80.771797],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_260eedd37bc85bffc3d0dcfb8c7d3216 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1505afd6ddde831b42394556ea86453f = $(`<div id="html_1505afd6ddde831b42394556ea86453f" style="width: 100.0%; height: 100.0%;">sri lanka Paper Count:8</div>`)[0];
+                popup_260eedd37bc85bffc3d0dcfb8c7d3216.setContent(html_1505afd6ddde831b42394556ea86453f);
+            
+        
+
+        circle_281d5768ffea6d8311eae4a393c069bd.bindPopup(popup_260eedd37bc85bffc3d0dcfb8c7d3216)
+        ;
+
+        
+    
+    
+            var marker_d4a8d7cc1a41e30b77452bb9e72fa0e7 = L.marker(
+                [7.873054, 80.771797],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_c73a3b9081d5b8af8f52e2d7662c382f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e8\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_d4a8d7cc1a41e30b77452bb9e72fa0e7.setIcon(div_icon_c73a3b9081d5b8af8f52e2d7662c382f);
+        
+    
+            var circle_1d7244e9cf2fe763123a42cc84c55ef5 = L.circle(
+                [33.886917, 9.537499],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_04d234002c77ef8889e0bc14f34c81e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f8b0fd9b109e1a2a639dfb70671c963 = $(`<div id="html_3f8b0fd9b109e1a2a639dfb70671c963" style="width: 100.0%; height: 100.0%;">tunisia Paper Count:8</div>`)[0];
+                popup_04d234002c77ef8889e0bc14f34c81e7.setContent(html_3f8b0fd9b109e1a2a639dfb70671c963);
+            
+        
+
+        circle_1d7244e9cf2fe763123a42cc84c55ef5.bindPopup(popup_04d234002c77ef8889e0bc14f34c81e7)
+        ;
+
+        
+    
+    
+            var marker_aa4ccb08141290be5db78e1c00575168 = L.marker(
+                [33.886917, 9.537499],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_4a47e64ca52fff553b38bb1e46a1e98b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e8\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_aa4ccb08141290be5db78e1c00575168.setIcon(div_icon_4a47e64ca52fff553b38bb1e46a1e98b);
+        
+    
+            var circle_3b57bf68fbb11fe0966981be06b03356 = L.circle(
+                [49.815273, 6.129583],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ff9c72d3e0b3a90b5f4683c089c94851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db14d8c8844580b0afbed39afb4013e9 = $(`<div id="html_db14d8c8844580b0afbed39afb4013e9" style="width: 100.0%; height: 100.0%;">luxembourg Paper Count:7</div>`)[0];
+                popup_ff9c72d3e0b3a90b5f4683c089c94851.setContent(html_db14d8c8844580b0afbed39afb4013e9);
+            
+        
+
+        circle_3b57bf68fbb11fe0966981be06b03356.bindPopup(popup_ff9c72d3e0b3a90b5f4683c089c94851)
+        ;
+
+        
+    
+    
+            var marker_f0ffae4ed60ee9b5937c3947879e3e5a = L.marker(
+                [49.815273, 6.129583],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_4640d4db725c2d47c393df2d9186235b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e7\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_f0ffae4ed60ee9b5937c3947879e3e5a.setIcon(div_icon_4640d4db725c2d47c393df2d9186235b);
+        
+    
+            var circle_2988aba0ebbd586bff5159b8db7a77ce = L.circle(
+                [31.791702, -7.09262],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_88f7e47e1f865cfaa0bb63cf711e7e80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fed382712266acc03ab32dbb03aad478 = $(`<div id="html_fed382712266acc03ab32dbb03aad478" style="width: 100.0%; height: 100.0%;">morocco Paper Count:7</div>`)[0];
+                popup_88f7e47e1f865cfaa0bb63cf711e7e80.setContent(html_fed382712266acc03ab32dbb03aad478);
+            
+        
+
+        circle_2988aba0ebbd586bff5159b8db7a77ce.bindPopup(popup_88f7e47e1f865cfaa0bb63cf711e7e80)
+        ;
+
+        
+    
+    
+            var marker_1fc9d9082f1271fefbcdb74f4b064046 = L.marker(
+                [31.791702, -7.09262],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_738806f0b0c421a745598d15b902e1d7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e7\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_1fc9d9082f1271fefbcdb74f4b064046.setIcon(div_icon_738806f0b0c421a745598d15b902e1d7);
+        
+    
+            var circle_450cafb1ad1a40a0d3e3134917e3198b = L.circle(
+                [25.930414, 50.637772],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_fffbd90617a633079c02a6a5ed2b7867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31c426acaaca5f89f76ec7f828893e5f = $(`<div id="html_31c426acaaca5f89f76ec7f828893e5f" style="width: 100.0%; height: 100.0%;">bahrain Paper Count:6</div>`)[0];
+                popup_fffbd90617a633079c02a6a5ed2b7867.setContent(html_31c426acaaca5f89f76ec7f828893e5f);
+            
+        
+
+        circle_450cafb1ad1a40a0d3e3134917e3198b.bindPopup(popup_fffbd90617a633079c02a6a5ed2b7867)
+        ;
+
+        
+    
+    
+            var marker_5c66a7dafe19e3dee0607b24964bf5a5 = L.marker(
+                [25.930414, 50.637772],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_911373656e233dbeebf8853b8623e583 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e6\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_5c66a7dafe19e3dee0607b24964bf5a5.setIcon(div_icon_911373656e233dbeebf8853b8623e583);
+        
+    
+            var circle_0f681a46d143a2977b4168ad60e85fb9 = L.circle(
+                [64.963051, -19.020835],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_8b26b2a426ad950c9b5e83d3b5ab3015 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9b0560070d6119d11e462067e0b59bb = $(`<div id="html_b9b0560070d6119d11e462067e0b59bb" style="width: 100.0%; height: 100.0%;">iceland Paper Count:6</div>`)[0];
+                popup_8b26b2a426ad950c9b5e83d3b5ab3015.setContent(html_b9b0560070d6119d11e462067e0b59bb);
+            
+        
+
+        circle_0f681a46d143a2977b4168ad60e85fb9.bindPopup(popup_8b26b2a426ad950c9b5e83d3b5ab3015)
+        ;
+
+        
+    
+    
+            var marker_0967638a396aa7565f1bb39385a02bcb = L.marker(
+                [64.963051, -19.020835],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_1dbb690d1ff55c85642280d47137eb46 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e6\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_0967638a396aa7565f1bb39385a02bcb.setIcon(div_icon_1dbb690d1ff55c85642280d47137eb46);
+        
+    
+            var circle_0f332fd8b510239f5130e107ef4ec1e6 = L.circle(
+                [29.31166, 47.481766],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_74b0a1305dd038f0361bd986ff2a6ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb6538771bc20ae469f65abf640b781c = $(`<div id="html_fb6538771bc20ae469f65abf640b781c" style="width: 100.0%; height: 100.0%;">kuwait Paper Count:6</div>`)[0];
+                popup_74b0a1305dd038f0361bd986ff2a6ae8.setContent(html_fb6538771bc20ae469f65abf640b781c);
+            
+        
+
+        circle_0f332fd8b510239f5130e107ef4ec1e6.bindPopup(popup_74b0a1305dd038f0361bd986ff2a6ae8)
+        ;
+
+        
+    
+    
+            var marker_8e5c9b77dec75b4bd95a28f1d0744577 = L.marker(
+                [29.31166, 47.481766],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_162356157ed8f3303fefb0a3907ba9ca = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e6\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_8e5c9b77dec75b4bd95a28f1d0744577.setIcon(div_icon_162356157ed8f3303fefb0a3907ba9ca);
+        
+    
+            var circle_c102ac4cdd4fe41f69fd0f38adeeaa8e = L.circle(
+                [35.937496, 14.375416],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_23fd71341a865b6625aa7088f4b7557d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b42666c417530a82c62a37330e4b4e12 = $(`<div id="html_b42666c417530a82c62a37330e4b4e12" style="width: 100.0%; height: 100.0%;">malta Paper Count:6</div>`)[0];
+                popup_23fd71341a865b6625aa7088f4b7557d.setContent(html_b42666c417530a82c62a37330e4b4e12);
+            
+        
+
+        circle_c102ac4cdd4fe41f69fd0f38adeeaa8e.bindPopup(popup_23fd71341a865b6625aa7088f4b7557d)
+        ;
+
+        
+    
+    
+            var marker_dce694e24e3bbfbe1272d1f1ce83de5e = L.marker(
+                [35.937496, 14.375416],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_8f5f6a1d5a4b392ba406fffc305fedc3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e6\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_dce694e24e3bbfbe1272d1f1ce83de5e.setIcon(div_icon_8f5f6a1d5a4b392ba406fffc305fedc3);
+        
+    
+            var circle_b01aba9c814eb8d44ea6b5e0f882139e = L.circle(
+                [9.145, 40.489673],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_5160e062ea988c234be272c4138aab4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37075221d5e0d239b3d5f8806c3bd7e2 = $(`<div id="html_37075221d5e0d239b3d5f8806c3bd7e2" style="width: 100.0%; height: 100.0%;">ethiopia Paper Count:5</div>`)[0];
+                popup_5160e062ea988c234be272c4138aab4f.setContent(html_37075221d5e0d239b3d5f8806c3bd7e2);
+            
+        
+
+        circle_b01aba9c814eb8d44ea6b5e0f882139e.bindPopup(popup_5160e062ea988c234be272c4138aab4f)
+        ;
+
+        
+    
+    
+            var marker_38c617b6b1369b8710eb9c1a40400ebb = L.marker(
+                [9.145, 40.489673],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_43b4e35e4438a0665ee639120e0cadce = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e5\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_38c617b6b1369b8710eb9c1a40400ebb.setIcon(div_icon_43b4e35e4438a0665ee639120e0cadce);
+        
+    
+            var circle_244419f3e4790a37e28560ac1cc670dc = L.circle(
+                [18.109581, -77.297508],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_cbceb17463df1b49f89043a9ddf9bfe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bcbe1f6f4564728d1bbe0d38c3ba8e9 = $(`<div id="html_9bcbe1f6f4564728d1bbe0d38c3ba8e9" style="width: 100.0%; height: 100.0%;">jamaica Paper Count:5</div>`)[0];
+                popup_cbceb17463df1b49f89043a9ddf9bfe1.setContent(html_9bcbe1f6f4564728d1bbe0d38c3ba8e9);
+            
+        
+
+        circle_244419f3e4790a37e28560ac1cc670dc.bindPopup(popup_cbceb17463df1b49f89043a9ddf9bfe1)
+        ;
+
+        
+    
+    
+            var marker_51c86d6a903ec7510a2dd79cfa36cb93 = L.marker(
+                [18.109581, -77.297508],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_7e3de1a55eadd389ce15321d24ab9f2d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e5\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_51c86d6a903ec7510a2dd79cfa36cb93.setIcon(div_icon_7e3de1a55eadd389ce15321d24ab9f2d);
+        
+    
+            var circle_084824d15cdde46b75de34bfac36aefd = L.circle(
+                [41.153332, 20.168331],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_008bd9b3e7d43a1d5e63c65055839e51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8a28f60c9f63a4935ba18c41e8108f4 = $(`<div id="html_e8a28f60c9f63a4935ba18c41e8108f4" style="width: 100.0%; height: 100.0%;">albania Paper Count:4</div>`)[0];
+                popup_008bd9b3e7d43a1d5e63c65055839e51.setContent(html_e8a28f60c9f63a4935ba18c41e8108f4);
+            
+        
+
+        circle_084824d15cdde46b75de34bfac36aefd.bindPopup(popup_008bd9b3e7d43a1d5e63c65055839e51)
+        ;
+
+        
+    
+    
+            var marker_087287445d32e4f55b4bfe12e20aa7ee = L.marker(
+                [41.153332, 20.168331],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_e190c78c020ac50371bc11e7b2c1476b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e4\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_087287445d32e4f55b4bfe12e20aa7ee.setIcon(div_icon_e190c78c020ac50371bc11e7b2c1476b);
+        
+    
+            var circle_8ba4cb447e716c2d76e22541bb5053c2 = L.circle(
+                [43.915886, 17.679076],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_add65e2b9c274566c5edddbee9ab2a3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f43c53203fda44a2285162f04cccb861 = $(`<div id="html_f43c53203fda44a2285162f04cccb861" style="width: 100.0%; height: 100.0%;">bosnia and herzegovina Paper Count:4</div>`)[0];
+                popup_add65e2b9c274566c5edddbee9ab2a3f.setContent(html_f43c53203fda44a2285162f04cccb861);
+            
+        
+
+        circle_8ba4cb447e716c2d76e22541bb5053c2.bindPopup(popup_add65e2b9c274566c5edddbee9ab2a3f)
+        ;
+
+        
+    
+    
+            var marker_b80deddc6cad2f931e860462b6dbf9c8 = L.marker(
+                [43.915886, 17.679076],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_23db751ba4a86596fff2cdbe287fd79a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e4\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_b80deddc6cad2f931e860462b6dbf9c8.setIcon(div_icon_23db751ba4a86596fff2cdbe287fd79a);
+        
+    
+            var circle_fd998b3d7a847d04336b15de99ff8e5f = L.circle(
+                [9.748917, -83.753428],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_5a4b7ed1720f8ca1e7610318406a242c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd97e7432ce6518535074e337a5ad280 = $(`<div id="html_bd97e7432ce6518535074e337a5ad280" style="width: 100.0%; height: 100.0%;">costa rica Paper Count:4</div>`)[0];
+                popup_5a4b7ed1720f8ca1e7610318406a242c.setContent(html_bd97e7432ce6518535074e337a5ad280);
+            
+        
+
+        circle_fd998b3d7a847d04336b15de99ff8e5f.bindPopup(popup_5a4b7ed1720f8ca1e7610318406a242c)
+        ;
+
+        
+    
+    
+            var marker_8979ccae30573bd054b101bfc69434d9 = L.marker(
+                [9.748917, -83.753428],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_23a2cb4734e3521d15c3d4061cab6569 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e4\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_8979ccae30573bd054b101bfc69434d9.setIcon(div_icon_23a2cb4734e3521d15c3d4061cab6569);
+        
+    
+            var circle_afd559d229bd615b468bad0d2db9dc74 = L.circle(
+                [28.394857, 84.124008],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_3f5310ad8bfb8e06917b96137bef7055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5325fa1b0a08fa7469d478190d41cce5 = $(`<div id="html_5325fa1b0a08fa7469d478190d41cce5" style="width: 100.0%; height: 100.0%;">nepal Paper Count:4</div>`)[0];
+                popup_3f5310ad8bfb8e06917b96137bef7055.setContent(html_5325fa1b0a08fa7469d478190d41cce5);
+            
+        
+
+        circle_afd559d229bd615b468bad0d2db9dc74.bindPopup(popup_3f5310ad8bfb8e06917b96137bef7055)
+        ;
+
+        
+    
+    
+            var marker_6fbec135510a6332843bfe43561c3b52 = L.marker(
+                [28.394857, 84.124008],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_19fbcbeceeffc16fce6326b46a39d0fc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e4\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_6fbec135510a6332843bfe43561c3b52.setIcon(div_icon_19fbcbeceeffc16fce6326b46a39d0fc);
+        
+    
+            var circle_38895486a3c44a9e4d89e8cfe3134358 = L.circle(
+                [25.354826, 51.183884],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_b6a2e4dd2c592c5232fb4e174c8de8e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd48ec038b6529c19f3e8206e7a6c927 = $(`<div id="html_fd48ec038b6529c19f3e8206e7a6c927" style="width: 100.0%; height: 100.0%;">qatar Paper Count:4</div>`)[0];
+                popup_b6a2e4dd2c592c5232fb4e174c8de8e2.setContent(html_fd48ec038b6529c19f3e8206e7a6c927);
+            
+        
+
+        circle_38895486a3c44a9e4d89e8cfe3134358.bindPopup(popup_b6a2e4dd2c592c5232fb4e174c8de8e2)
+        ;
+
+        
+    
+    
+            var marker_5824a01187564db121f06ffb4d8d07ad = L.marker(
+                [25.354826, 51.183884],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_de33b3ea6715c4bed3138d506ed7716f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e4\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_5824a01187564db121f06ffb4d8d07ad.setIcon(div_icon_de33b3ea6715c4bed3138d506ed7716f);
+        
+    
+            var circle_f1030fc9a8c1c26010d804f020c79fb6 = L.circle(
+                [28.033886, 1.659626],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_1389ca0b39bc885d1bf9aaf509bd10e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bb9cab5571e2d0e5b8a985701ec12e6 = $(`<div id="html_3bb9cab5571e2d0e5b8a985701ec12e6" style="width: 100.0%; height: 100.0%;">algeria Paper Count:3</div>`)[0];
+                popup_1389ca0b39bc885d1bf9aaf509bd10e3.setContent(html_3bb9cab5571e2d0e5b8a985701ec12e6);
+            
+        
+
+        circle_f1030fc9a8c1c26010d804f020c79fb6.bindPopup(popup_1389ca0b39bc885d1bf9aaf509bd10e3)
+        ;
+
+        
+    
+    
+            var marker_520010eb23086b94aa9a45b7d888aff0 = L.marker(
+                [28.033886, 1.659626],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_31fdb8f8937fb2102f65901fbbeb5944 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_520010eb23086b94aa9a45b7d888aff0.setIcon(div_icon_31fdb8f8937fb2102f65901fbbeb5944);
+        
+    
+            var circle_0ff3a4622f7dc71fa36e0e8742ecfa26 = L.circle(
+                [-16.290154, -63.588653],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_c50236ab13ef62203e2e738e359f721a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_349932e089e5bd014cb4603d9438a85f = $(`<div id="html_349932e089e5bd014cb4603d9438a85f" style="width: 100.0%; height: 100.0%;">bolivia Paper Count:3</div>`)[0];
+                popup_c50236ab13ef62203e2e738e359f721a.setContent(html_349932e089e5bd014cb4603d9438a85f);
+            
+        
+
+        circle_0ff3a4622f7dc71fa36e0e8742ecfa26.bindPopup(popup_c50236ab13ef62203e2e738e359f721a)
+        ;
+
+        
+    
+    
+            var marker_ffcc9afc2d4b4d132ebc173c650feb1f = L.marker(
+                [-16.290154, -63.588653],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_de6a8768296d0725ba938cb8b577f0d4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_ffcc9afc2d4b4d132ebc173c650feb1f.setIcon(div_icon_de6a8768296d0725ba938cb8b577f0d4);
+        
+    
+            var circle_b196d18cfd0f96616c808f639d4b6995 = L.circle(
+                [7.369722, 12.354722],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_f385fb2224a5bd4d2b60cb9b0c8811fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e433e60f0b5c866955530f8f27c5eed4 = $(`<div id="html_e433e60f0b5c866955530f8f27c5eed4" style="width: 100.0%; height: 100.0%;">cameroon Paper Count:3</div>`)[0];
+                popup_f385fb2224a5bd4d2b60cb9b0c8811fb.setContent(html_e433e60f0b5c866955530f8f27c5eed4);
+            
+        
+
+        circle_b196d18cfd0f96616c808f639d4b6995.bindPopup(popup_f385fb2224a5bd4d2b60cb9b0c8811fb)
+        ;
+
+        
+    
+    
+            var marker_57f83d7be942ddf2baf5fdd069d9a098 = L.marker(
+                [7.369722, 12.354722],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_d2c5a0acd9bb64f61b1c84788251ec41 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_57f83d7be942ddf2baf5fdd069d9a098.setIcon(div_icon_d2c5a0acd9bb64f61b1c84788251ec41);
+        
+    
+            var circle_5c2ef6a74365f56fc13934129d3e41f5 = L.circle(
+                [15.783471, -90.230759],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_fa816f1211f1eb14721c4b8f971c1ce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5eb4658929c0e15352ef7eaed87e96c = $(`<div id="html_b5eb4658929c0e15352ef7eaed87e96c" style="width: 100.0%; height: 100.0%;">guatemala Paper Count:3</div>`)[0];
+                popup_fa816f1211f1eb14721c4b8f971c1ce1.setContent(html_b5eb4658929c0e15352ef7eaed87e96c);
+            
+        
+
+        circle_5c2ef6a74365f56fc13934129d3e41f5.bindPopup(popup_fa816f1211f1eb14721c4b8f971c1ce1)
+        ;
+
+        
+    
+    
+            var marker_35b6c5080b11ffe749f5b39c01c3910f = L.marker(
+                [15.783471, -90.230759],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_10a06b7e4e451301f23dfaab50648dc6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_35b6c5080b11ffe749f5b39c01c3910f.setIcon(div_icon_10a06b7e4e451301f23dfaab50648dc6);
+        
+    
+            var circle_dfe33f9127cdef8248efd47fa15a41ef = L.circle(
+                [-13.254308, 34.301525],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_31a3e7e0072aa1ea4f7d428e9afd1c7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d3ca7313bc0d3552f99d29adb7738a1 = $(`<div id="html_6d3ca7313bc0d3552f99d29adb7738a1" style="width: 100.0%; height: 100.0%;">malawi Paper Count:3</div>`)[0];
+                popup_31a3e7e0072aa1ea4f7d428e9afd1c7a.setContent(html_6d3ca7313bc0d3552f99d29adb7738a1);
+            
+        
+
+        circle_dfe33f9127cdef8248efd47fa15a41ef.bindPopup(popup_31a3e7e0072aa1ea4f7d428e9afd1c7a)
+        ;
+
+        
+    
+    
+            var marker_324ced170fbe9cc05288cedabf3782bc = L.marker(
+                [-13.254308, 34.301525],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_8580ade71c36e4f62ba240631bc886fb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_324ced170fbe9cc05288cedabf3782bc.setIcon(div_icon_8580ade71c36e4f62ba240631bc886fb);
+        
+    
+            var circle_ecd57436a588951b301cd73f5d360d59 = L.circle(
+                [21.913965, 95.956223],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_7106d14a280f2d3584830b529b1cd7fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f50102e55554d43288358de6653b9046 = $(`<div id="html_f50102e55554d43288358de6653b9046" style="width: 100.0%; height: 100.0%;">myanmar Paper Count:3</div>`)[0];
+                popup_7106d14a280f2d3584830b529b1cd7fb.setContent(html_f50102e55554d43288358de6653b9046);
+            
+        
+
+        circle_ecd57436a588951b301cd73f5d360d59.bindPopup(popup_7106d14a280f2d3584830b529b1cd7fb)
+        ;
+
+        
+    
+    
+            var marker_01140e9aa431930995a8c3d57647fb22 = L.marker(
+                [21.913965, 95.956223],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_6a668c715b56f3be23dbefc16db8c303 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_01140e9aa431930995a8c3d57647fb22.setIcon(div_icon_6a668c715b56f3be23dbefc16db8c303);
+        
+    
+            var circle_50f6365e20ba2de7235802271e99f685 = L.circle(
+                [-22.95764, 18.49041],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_1d1ac04fa08f8e7b3703730d86d34f75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_835719541c32c6ce2dfb581f981c2d52 = $(`<div id="html_835719541c32c6ce2dfb581f981c2d52" style="width: 100.0%; height: 100.0%;">namibia Paper Count:3</div>`)[0];
+                popup_1d1ac04fa08f8e7b3703730d86d34f75.setContent(html_835719541c32c6ce2dfb581f981c2d52);
+            
+        
+
+        circle_50f6365e20ba2de7235802271e99f685.bindPopup(popup_1d1ac04fa08f8e7b3703730d86d34f75)
+        ;
+
+        
+    
+    
+            var marker_0e91c412a59e1d6063249eac1a7d87c2 = L.marker(
+                [-22.95764, 18.49041],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_5dda4ab3cd716800a13f1d5ab0b14a9b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_0e91c412a59e1d6063249eac1a7d87c2.setIcon(div_icon_5dda4ab3cd716800a13f1d5ab0b14a9b);
+        
+    
+            var circle_9fce2096ad4cab3e5c3cc3bd753af8db = L.circle(
+                [41.608635, 21.745275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_0779537b502f096d816c9419f6d8daa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5d42632f8be31defe613e848d454c38 = $(`<div id="html_d5d42632f8be31defe613e848d454c38" style="width: 100.0%; height: 100.0%;">north macedonia Paper Count:3</div>`)[0];
+                popup_0779537b502f096d816c9419f6d8daa9.setContent(html_d5d42632f8be31defe613e848d454c38);
+            
+        
+
+        circle_9fce2096ad4cab3e5c3cc3bd753af8db.bindPopup(popup_0779537b502f096d816c9419f6d8daa9)
+        ;
+
+        
+    
+    
+            var marker_2c4976a154e1fc79e7f8e7879d4d147b = L.marker(
+                [41.608635, 21.745275],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_7d672c63f59d8651decc4b9c15e8869f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_2c4976a154e1fc79e7f8e7879d4d147b.setIcon(div_icon_7d672c63f59d8651decc4b9c15e8869f);
+        
+    
+            var circle_136a0a332796d82cb92526b606605b45 = L.circle(
+                [-6.369028, 34.888822],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_3d2e1d82a5f77398d9556c1e59daae64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc86fae605d99ad4e0c51b8b135478ab = $(`<div id="html_cc86fae605d99ad4e0c51b8b135478ab" style="width: 100.0%; height: 100.0%;">tanzania Paper Count:3</div>`)[0];
+                popup_3d2e1d82a5f77398d9556c1e59daae64.setContent(html_cc86fae605d99ad4e0c51b8b135478ab);
+            
+        
+
+        circle_136a0a332796d82cb92526b606605b45.bindPopup(popup_3d2e1d82a5f77398d9556c1e59daae64)
+        ;
+
+        
+    
+    
+            var marker_58205308fd8921c9dea766da4ceb0527 = L.marker(
+                [-6.369028, 34.888822],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_f0944c98e94e40d843055fbb36bc6ed7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_58205308fd8921c9dea766da4ceb0527.setIcon(div_icon_f0944c98e94e40d843055fbb36bc6ed7);
+        
+    
+            var circle_1992402ac832ef838b3a1fb7bab5e5b8 = L.circle(
+                [1.373333, 32.290275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ba5d5df43d320fb6a0b87934d9a7a2c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ae1b1a290f6f92d362a9ddc190fed90 = $(`<div id="html_9ae1b1a290f6f92d362a9ddc190fed90" style="width: 100.0%; height: 100.0%;">uganda Paper Count:3</div>`)[0];
+                popup_ba5d5df43d320fb6a0b87934d9a7a2c4.setContent(html_9ae1b1a290f6f92d362a9ddc190fed90);
+            
+        
+
+        circle_1992402ac832ef838b3a1fb7bab5e5b8.bindPopup(popup_ba5d5df43d320fb6a0b87934d9a7a2c4)
+        ;
+
+        
+    
+    
+            var marker_6b79851d539a609aabc8c733678d64f7 = L.marker(
+                [1.373333, 32.290275],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_0a883f587e692e334c8aa7bf4b303037 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_6b79851d539a609aabc8c733678d64f7.setIcon(div_icon_0a883f587e692e334c8aa7bf4b303037);
+        
+    
+            var circle_674a2c7e807ead879bece5c687fc1ea7 = L.circle(
+                [41.377491, 64.585262],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_3f2661b456b387a4aa1fc6fa413ee637 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c80150cc1d14d012561e13fc8d42ef0 = $(`<div id="html_9c80150cc1d14d012561e13fc8d42ef0" style="width: 100.0%; height: 100.0%;">uzbekistan Paper Count:3</div>`)[0];
+                popup_3f2661b456b387a4aa1fc6fa413ee637.setContent(html_9c80150cc1d14d012561e13fc8d42ef0);
+            
+        
+
+        circle_674a2c7e807ead879bece5c687fc1ea7.bindPopup(popup_3f2661b456b387a4aa1fc6fa413ee637)
+        ;
+
+        
+    
+    
+            var marker_f2d9a37258e0c5e88b1bbc0ef3a11cce = L.marker(
+                [41.377491, 64.585262],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_a0c245f0cf273b25f98dae469b6c6b60 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_f2d9a37258e0c5e88b1bbc0ef3a11cce.setIcon(div_icon_a0c245f0cf273b25f98dae469b6c6b60);
+        
+    
+            var circle_1986fa461a3a877577d63d5ca66c4999 = L.circle(
+                [-19.015438, 29.154857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_ffcdb1a3e46b0e10648f96326c3ed13b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6231b1b9b32fbff35f58e78db675fc06 = $(`<div id="html_6231b1b9b32fbff35f58e78db675fc06" style="width: 100.0%; height: 100.0%;">zimbabwe Paper Count:3</div>`)[0];
+                popup_ffcdb1a3e46b0e10648f96326c3ed13b.setContent(html_6231b1b9b32fbff35f58e78db675fc06);
+            
+        
+
+        circle_1986fa461a3a877577d63d5ca66c4999.bindPopup(popup_ffcdb1a3e46b0e10648f96326c3ed13b)
+        ;
+
+        
+    
+    
+            var marker_8946919d7d5c65c5ae06c8b8f78e2024 = L.marker(
+                [-19.015438, 29.154857],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_c1925ef38934931c2e7ec4c531942a38 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_8946919d7d5c65c5ae06c8b8f78e2024.setIcon(div_icon_c1925ef38934931c2e7ec4c531942a38);
+        
+    
+            var circle_340ef4c3aef239497be1f093b4ba86d4 = L.circle(
+                [40.069099, 45.038189],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_75ae8608455d0af8708167ce4511525c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b7cf73a3e28a9f62d62475004cff2a6 = $(`<div id="html_2b7cf73a3e28a9f62d62475004cff2a6" style="width: 100.0%; height: 100.0%;">armenia Paper Count:2</div>`)[0];
+                popup_75ae8608455d0af8708167ce4511525c.setContent(html_2b7cf73a3e28a9f62d62475004cff2a6);
+            
+        
+
+        circle_340ef4c3aef239497be1f093b4ba86d4.bindPopup(popup_75ae8608455d0af8708167ce4511525c)
+        ;
+
+        
+    
+    
+            var marker_8c3e916a661da591414c1c7750f4ecf1 = L.marker(
+                [40.069099, 45.038189],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_a9b71b4418bb643f51a37b6785c17f46 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_8c3e916a661da591414c1c7750f4ecf1.setIcon(div_icon_a9b71b4418bb643f51a37b6785c17f46);
+        
+    
+            var circle_b201521640eeaf38367ef2b510bbec60 = L.circle(
+                [40.143105, 47.576927],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_1a15f3225132c3a8511ad614f2d45ea0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ccc19781d5c8d1e50cc9ec6a772efc8 = $(`<div id="html_9ccc19781d5c8d1e50cc9ec6a772efc8" style="width: 100.0%; height: 100.0%;">azerbaijan Paper Count:2</div>`)[0];
+                popup_1a15f3225132c3a8511ad614f2d45ea0.setContent(html_9ccc19781d5c8d1e50cc9ec6a772efc8);
+            
+        
+
+        circle_b201521640eeaf38367ef2b510bbec60.bindPopup(popup_1a15f3225132c3a8511ad614f2d45ea0)
+        ;
+
+        
+    
+    
+            var marker_1b2fcd54b0955c912bc54d4d10c89bb1 = L.marker(
+                [40.143105, 47.576927],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_41a6c8d912cdd09453fda3394a8bc2f0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_1b2fcd54b0955c912bc54d4d10c89bb1.setIcon(div_icon_41a6c8d912cdd09453fda3394a8bc2f0);
+        
+    
+            var circle_78a6af0fddac0fe3755fdd10020c5af9 = L.circle(
+                [-22.328474, 24.684866],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_54edb910876eaeb7ddf0c63eed5acc97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3be2f6ac67e1f9649ed85e9084bc42f5 = $(`<div id="html_3be2f6ac67e1f9649ed85e9084bc42f5" style="width: 100.0%; height: 100.0%;">botswana Paper Count:2</div>`)[0];
+                popup_54edb910876eaeb7ddf0c63eed5acc97.setContent(html_3be2f6ac67e1f9649ed85e9084bc42f5);
+            
+        
+
+        circle_78a6af0fddac0fe3755fdd10020c5af9.bindPopup(popup_54edb910876eaeb7ddf0c63eed5acc97)
+        ;
+
+        
+    
+    
+            var marker_ac6c32109b4edcb53071b09ab8c1aeb6 = L.marker(
+                [-22.328474, 24.684866],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_ef02f064044ce639fe0fd5a764ac4482 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_ac6c32109b4edcb53071b09ab8c1aeb6.setIcon(div_icon_ef02f064044ce639fe0fd5a764ac4482);
+        
+    
+            var circle_1d46fd910c77e53cfa6a42edc7c1625b = L.circle(
+                [4.535277, 114.727669],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_aa718640f5ed8c709b993a5ef3ac204a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9950e34373480830961bc75707343499 = $(`<div id="html_9950e34373480830961bc75707343499" style="width: 100.0%; height: 100.0%;">brunei darussalam Paper Count:2</div>`)[0];
+                popup_aa718640f5ed8c709b993a5ef3ac204a.setContent(html_9950e34373480830961bc75707343499);
+            
+        
+
+        circle_1d46fd910c77e53cfa6a42edc7c1625b.bindPopup(popup_aa718640f5ed8c709b993a5ef3ac204a)
+        ;
+
+        
+    
+    
+            var marker_28aeed20e4585bc2bfa1a3273bc9836c = L.marker(
+                [4.535277, 114.727669],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_c7e802702982a99866514bffea9aad73 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_28aeed20e4585bc2bfa1a3273bc9836c.setIcon(div_icon_c7e802702982a99866514bffea9aad73);
+        
+    
+            var circle_76c78ce9b75a9ee1164a7efdf156e951 = L.circle(
+                [-16.578193, 179.414413],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_bbc6a4504b4bb6d848d66d539604e083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_636e77273359e44ac08349df1dbbaa85 = $(`<div id="html_636e77273359e44ac08349df1dbbaa85" style="width: 100.0%; height: 100.0%;">fiji Paper Count:2</div>`)[0];
+                popup_bbc6a4504b4bb6d848d66d539604e083.setContent(html_636e77273359e44ac08349df1dbbaa85);
+            
+        
+
+        circle_76c78ce9b75a9ee1164a7efdf156e951.bindPopup(popup_bbc6a4504b4bb6d848d66d539604e083)
+        ;
+
+        
+    
+    
+            var marker_4f3407796bb0c38cd516e6750c5a71d9 = L.marker(
+                [-16.578193, 179.414413],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_77e337539398e9a08e63f365a29ea531 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_4f3407796bb0c38cd516e6750c5a71d9.setIcon(div_icon_77e337539398e9a08e63f365a29ea531);
+        
+    
+            var circle_1f8ba7680735acaa9b0fd828fbe9e3ab = L.circle(
+                [42.315407, 43.356892],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_1e29b5457930afa32fb1b88fca3efdd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ccb6a96bc0e76c161ca7bd985d53c8d = $(`<div id="html_4ccb6a96bc0e76c161ca7bd985d53c8d" style="width: 100.0%; height: 100.0%;">georgia Paper Count:2</div>`)[0];
+                popup_1e29b5457930afa32fb1b88fca3efdd0.setContent(html_4ccb6a96bc0e76c161ca7bd985d53c8d);
+            
+        
+
+        circle_1f8ba7680735acaa9b0fd828fbe9e3ab.bindPopup(popup_1e29b5457930afa32fb1b88fca3efdd0)
+        ;
+
+        
+    
+    
+            var marker_fae4078986bca08dab5cdf37b2450b47 = L.marker(
+                [42.315407, 43.356892],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_918009930f71ac27b90388a572d80678 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_fae4078986bca08dab5cdf37b2450b47.setIcon(div_icon_918009930f71ac27b90388a572d80678);
+        
+    
+            var circle_5cda8aea732549987b10faf5e22dc1f4 = L.circle(
+                [4.860416, -58.93018],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_24acd8ab62ede3c5ccdab08dbec07595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa8a8aaba55b4822f83014f797a6188a = $(`<div id="html_aa8a8aaba55b4822f83014f797a6188a" style="width: 100.0%; height: 100.0%;">guyana Paper Count:2</div>`)[0];
+                popup_24acd8ab62ede3c5ccdab08dbec07595.setContent(html_aa8a8aaba55b4822f83014f797a6188a);
+            
+        
+
+        circle_5cda8aea732549987b10faf5e22dc1f4.bindPopup(popup_24acd8ab62ede3c5ccdab08dbec07595)
+        ;
+
+        
+    
+    
+            var marker_0a1197ab30de2d6643c2ca4a9b661001 = L.marker(
+                [4.860416, -58.93018],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_bd2b4ac641a638f722eb2c39a380652e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_0a1197ab30de2d6643c2ca4a9b661001.setIcon(div_icon_bd2b4ac641a638f722eb2c39a380652e);
+        
+    
+            var circle_13e3af19a0879d51b870600ee4303374 = L.circle(
+                [47.166, 9.555373],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_63a956e39ff3026ab9014ea6c577dd76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_728b3b68a830fbfa3d63175ac4292f60 = $(`<div id="html_728b3b68a830fbfa3d63175ac4292f60" style="width: 100.0%; height: 100.0%;">liechtenstein Paper Count:2</div>`)[0];
+                popup_63a956e39ff3026ab9014ea6c577dd76.setContent(html_728b3b68a830fbfa3d63175ac4292f60);
+            
+        
+
+        circle_13e3af19a0879d51b870600ee4303374.bindPopup(popup_63a956e39ff3026ab9014ea6c577dd76)
+        ;
+
+        
+    
+    
+            var marker_5c1177048c3c0af68f6b8a6d48a98274 = L.marker(
+                [47.166, 9.555373],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_0d533b0527f5ea23275023cbd61ed150 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_5c1177048c3c0af68f6b8a6d48a98274.setIcon(div_icon_0d533b0527f5ea23275023cbd61ed150);
+        
+    
+            var circle_22839fcf0bf4e864d96bf543d539c777 = L.circle(
+                [-26.522503, 31.465866],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_69fce90eb8f9305d30c0bd2f6b0f5514 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0b190e37f46f2fa645c8af06630e5aa = $(`<div id="html_a0b190e37f46f2fa645c8af06630e5aa" style="width: 100.0%; height: 100.0%;">swaziland Paper Count:2</div>`)[0];
+                popup_69fce90eb8f9305d30c0bd2f6b0f5514.setContent(html_a0b190e37f46f2fa645c8af06630e5aa);
+            
+        
+
+        circle_22839fcf0bf4e864d96bf543d539c777.bindPopup(popup_69fce90eb8f9305d30c0bd2f6b0f5514)
+        ;
+
+        
+    
+    
+            var marker_a77f88afd8ae5536df3300bf21e3f8b2 = L.marker(
+                [-26.522503, 31.465866],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_fa0cf876e564c68273e97a73b36f50ea = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_a77f88afd8ae5536df3300bf21e3f8b2.setIcon(div_icon_fa0cf876e564c68273e97a73b36f50ea);
+        
+    
+            var circle_30e2acc34c8796e67d275065d974cff8 = L.circle(
+                [13.193887, -59.543198],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_677afc42102c169f06ad893e3ddf389e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51503271cca82b31ec585361fcdd43d2 = $(`<div id="html_51503271cca82b31ec585361fcdd43d2" style="width: 100.0%; height: 100.0%;">barbados Paper Count:1</div>`)[0];
+                popup_677afc42102c169f06ad893e3ddf389e.setContent(html_51503271cca82b31ec585361fcdd43d2);
+            
+        
+
+        circle_30e2acc34c8796e67d275065d974cff8.bindPopup(popup_677afc42102c169f06ad893e3ddf389e)
+        ;
+
+        
+    
+    
+            var marker_d337d68e46bf62771e7b3614813a85fb = L.marker(
+                [13.193887, -59.543198],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_a06cdf1b7bda79b8536266075ce1045b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_d337d68e46bf62771e7b3614813a85fb.setIcon(div_icon_a06cdf1b7bda79b8536266075ce1045b);
+        
+    
+            var circle_dc97a7aa6fa03171126cf294ae4a415f = L.circle(
+                [12.565679, 104.990963],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_e491769ebf422d73bdacbf3ac08a2357 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49fbdc2559789f37c7e3f34b1b6f13b1 = $(`<div id="html_49fbdc2559789f37c7e3f34b1b6f13b1" style="width: 100.0%; height: 100.0%;">cambodia Paper Count:1</div>`)[0];
+                popup_e491769ebf422d73bdacbf3ac08a2357.setContent(html_49fbdc2559789f37c7e3f34b1b6f13b1);
+            
+        
+
+        circle_dc97a7aa6fa03171126cf294ae4a415f.bindPopup(popup_e491769ebf422d73bdacbf3ac08a2357)
+        ;
+
+        
+    
+    
+            var marker_aa30b50a81de6ac3e12affe83607684e = L.marker(
+                [12.565679, 104.990963],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_0d40083a7b95197203201e9d3e828381 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_aa30b50a81de6ac3e12affe83607684e.setIcon(div_icon_0d40083a7b95197203201e9d3e828381);
+        
+    
+            var circle_e01997078a05911cd2ccb1e599963bc0 = L.circle(
+                [18.735693, -70.162651],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_66aa508dfc65c401524b24fbf686f27b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4908bf8d47338e0b71b5009412ad2cc2 = $(`<div id="html_4908bf8d47338e0b71b5009412ad2cc2" style="width: 100.0%; height: 100.0%;">dominican republic Paper Count:1</div>`)[0];
+                popup_66aa508dfc65c401524b24fbf686f27b.setContent(html_4908bf8d47338e0b71b5009412ad2cc2);
+            
+        
+
+        circle_e01997078a05911cd2ccb1e599963bc0.bindPopup(popup_66aa508dfc65c401524b24fbf686f27b)
+        ;
+
+        
+    
+    
+            var marker_f9cc07d00ca85b7d451338685bac7e4c = L.marker(
+                [18.735693, -70.162651],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_b3470f82e21bd336c3095228430d1ca7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_f9cc07d00ca85b7d451338685bac7e4c.setIcon(div_icon_b3470f82e21bd336c3095228430d1ca7);
+        
+    
+            var circle_d1a4ea40c443354e79d04d6825a03c61 = L.circle(
+                [26.3351, 17.228331],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_21706e5b278f3e586246f2f88c29a285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e90a8ffcb9c577ac3f13709eef66e2f3 = $(`<div id="html_e90a8ffcb9c577ac3f13709eef66e2f3" style="width: 100.0%; height: 100.0%;">libyan arab jamahiriya Paper Count:1</div>`)[0];
+                popup_21706e5b278f3e586246f2f88c29a285.setContent(html_e90a8ffcb9c577ac3f13709eef66e2f3);
+            
+        
+
+        circle_d1a4ea40c443354e79d04d6825a03c61.bindPopup(popup_21706e5b278f3e586246f2f88c29a285)
+        ;
+
+        
+    
+    
+            var marker_53bae953343a9b53b9dc4b22349df53d = L.marker(
+                [26.3351, 17.228331],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_be5130616c5c360083f43aac035f0f77 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_53bae953343a9b53b9dc4b22349df53d.setIcon(div_icon_be5130616c5c360083f43aac035f0f77);
+        
+    
+            var circle_843d3595dd829f9d02f7f242e3f078b8 = L.circle(
+                [17.570692, -3.996166],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_80fe3d7ad00240a99390643cbfded309 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d46072a5d07e77b322ea559dc6ddd41c = $(`<div id="html_d46072a5d07e77b322ea559dc6ddd41c" style="width: 100.0%; height: 100.0%;">mali Paper Count:1</div>`)[0];
+                popup_80fe3d7ad00240a99390643cbfded309.setContent(html_d46072a5d07e77b322ea559dc6ddd41c);
+            
+        
+
+        circle_843d3595dd829f9d02f7f242e3f078b8.bindPopup(popup_80fe3d7ad00240a99390643cbfded309)
+        ;
+
+        
+    
+    
+            var marker_9abceaed2b71b09c8b44e45f634bc4a5 = L.marker(
+                [17.570692, -3.996166],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_c2a0e7ff807c27e01b38cd42acb16d1b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_9abceaed2b71b09c8b44e45f634bc4a5.setIcon(div_icon_c2a0e7ff807c27e01b38cd42acb16d1b);
+        
+    
+            var circle_9cc698b3d6eb8a8689ed3a01793fec9e = L.circle(
+                [47.411631, 28.369885],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_6e50fa4282b5344b29363bc2428866d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95135d891ac16897aa2dba3e9a2b9611 = $(`<div id="html_95135d891ac16897aa2dba3e9a2b9611" style="width: 100.0%; height: 100.0%;">moldova Paper Count:1</div>`)[0];
+                popup_6e50fa4282b5344b29363bc2428866d5.setContent(html_95135d891ac16897aa2dba3e9a2b9611);
+            
+        
+
+        circle_9cc698b3d6eb8a8689ed3a01793fec9e.bindPopup(popup_6e50fa4282b5344b29363bc2428866d5)
+        ;
+
+        
+    
+    
+            var marker_fe470b31d0de502aeb095bc4938f6298 = L.marker(
+                [47.411631, 28.369885],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_3123e4b6137632e68c5b81bcad9c8d88 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_fe470b31d0de502aeb095bc4938f6298.setIcon(div_icon_3123e4b6137632e68c5b81bcad9c8d88);
+        
+    
+            var circle_919e5c37689a48bc36f157477c829c92 = L.circle(
+                [42.708678, 19.37439],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_8791da50db4c0db460e371890c60428c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7585c964397eee32d61557e4f900f2dc = $(`<div id="html_7585c964397eee32d61557e4f900f2dc" style="width: 100.0%; height: 100.0%;">montenegro Paper Count:1</div>`)[0];
+                popup_8791da50db4c0db460e371890c60428c.setContent(html_7585c964397eee32d61557e4f900f2dc);
+            
+        
+
+        circle_919e5c37689a48bc36f157477c829c92.bindPopup(popup_8791da50db4c0db460e371890c60428c)
+        ;
+
+        
+    
+    
+            var marker_6e2c8406af5de55f3e6a2db87cbe3ca4 = L.marker(
+                [42.708678, 19.37439],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_1c5f23fd7cede49d8df055d3e1a09a45 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_6e2c8406af5de55f3e6a2db87cbe3ca4.setIcon(div_icon_1c5f23fd7cede49d8df055d3e1a09a45);
+        
+    
+            var circle_16cacbbd7eee9fcd1e490a0cce166485 = L.circle(
+                [31.952162, 35.233154],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_b4726174270c9a17be1df8afe68c4895 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ff6ecd8ed003aaf21f078b2171540ed = $(`<div id="html_8ff6ecd8ed003aaf21f078b2171540ed" style="width: 100.0%; height: 100.0%;">palestine Paper Count:1</div>`)[0];
+                popup_b4726174270c9a17be1df8afe68c4895.setContent(html_8ff6ecd8ed003aaf21f078b2171540ed);
+            
+        
+
+        circle_16cacbbd7eee9fcd1e490a0cce166485.bindPopup(popup_b4726174270c9a17be1df8afe68c4895)
+        ;
+
+        
+    
+    
+            var marker_a62669c513fd82e7ef10684a45dad841 = L.marker(
+                [31.952162, 35.233154],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_3f580666c761a67e3a637fbfbce1b670 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_a62669c513fd82e7ef10684a45dad841.setIcon(div_icon_3f580666c761a67e3a637fbfbce1b670);
+        
+    
+            var circle_63325cd79a682a2ed7c254047d4b7cb1 = L.circle(
+                [8.537981, -80.782127],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_644f68b4f32b1bc20b62c75778b45157 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_480a23ad4f8a9280fe3796089a08b93c = $(`<div id="html_480a23ad4f8a9280fe3796089a08b93c" style="width: 100.0%; height: 100.0%;">panama Paper Count:1</div>`)[0];
+                popup_644f68b4f32b1bc20b62c75778b45157.setContent(html_480a23ad4f8a9280fe3796089a08b93c);
+            
+        
+
+        circle_63325cd79a682a2ed7c254047d4b7cb1.bindPopup(popup_644f68b4f32b1bc20b62c75778b45157)
+        ;
+
+        
+    
+    
+            var marker_b21d61d8878e5b5a591c1f7a99486714 = L.marker(
+                [8.537981, -80.782127],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_bbf1027bc05ef5c49f9e40077566983a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_b21d61d8878e5b5a591c1f7a99486714.setIcon(div_icon_bbf1027bc05ef5c49f9e40077566983a);
+        
+    
+            var circle_65219357bab2c2eb930641dbdbc540a9 = L.circle(
+                [18.220833, -66.590149],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_0bdb5368cf836ed2daad027c06c5f5f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c91efeb54abf9b42576977bf73e333b7 = $(`<div id="html_c91efeb54abf9b42576977bf73e333b7" style="width: 100.0%; height: 100.0%;">puerto rico Paper Count:1</div>`)[0];
+                popup_0bdb5368cf836ed2daad027c06c5f5f3.setContent(html_c91efeb54abf9b42576977bf73e333b7);
+            
+        
+
+        circle_65219357bab2c2eb930641dbdbc540a9.bindPopup(popup_0bdb5368cf836ed2daad027c06c5f5f3)
+        ;
+
+        
+    
+    
+            var marker_df37855da8aefad37f24779e0542f33e = L.marker(
+                [18.220833, -66.590149],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_e31c5837bd6b2654e07ca49f3bcf51a3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_df37855da8aefad37f24779e0542f33e.setIcon(div_icon_e31c5837bd6b2654e07ca49f3bcf51a3);
+        
+    
+            var circle_e424a154daa04c1b6c66cf7fd1007209 = L.circle(
+                [-1.940278, 29.873888],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_721add2e8ae32edfb2f398d33df9aec5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7886a817cb5dfafcba295c37cf0aa782 = $(`<div id="html_7886a817cb5dfafcba295c37cf0aa782" style="width: 100.0%; height: 100.0%;">rwanda Paper Count:1</div>`)[0];
+                popup_721add2e8ae32edfb2f398d33df9aec5.setContent(html_7886a817cb5dfafcba295c37cf0aa782);
+            
+        
+
+        circle_e424a154daa04c1b6c66cf7fd1007209.bindPopup(popup_721add2e8ae32edfb2f398d33df9aec5)
+        ;
+
+        
+    
+    
+            var marker_cf6e004593e2271b83a3408a6a1ede8f = L.marker(
+                [-1.940278, 29.873888],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_ad4a8a39fc77c768181f8a73b184ef36 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_cf6e004593e2271b83a3408a6a1ede8f.setIcon(div_icon_ad4a8a39fc77c768181f8a73b184ef36);
+        
+    
+            var circle_f88492e5024ac811cc56bb9ff7071fd2 = L.circle(
+                [38.861034, 71.276093],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_1206e30b940df6b63cab915df8434a31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5964b7a88f570436409c4694473e2a6b = $(`<div id="html_5964b7a88f570436409c4694473e2a6b" style="width: 100.0%; height: 100.0%;">tajikistan Paper Count:1</div>`)[0];
+                popup_1206e30b940df6b63cab915df8434a31.setContent(html_5964b7a88f570436409c4694473e2a6b);
+            
+        
+
+        circle_f88492e5024ac811cc56bb9ff7071fd2.bindPopup(popup_1206e30b940df6b63cab915df8434a31)
+        ;
+
+        
+    
+    
+            var marker_5fda1db890c66d68cd4ea84e338ae71e = L.marker(
+                [38.861034, 71.276093],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_bdfebeab32c7f9d9e3b1d573538e3a8a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_5fda1db890c66d68cd4ea84e338ae71e.setIcon(div_icon_bdfebeab32c7f9d9e3b1d573538e3a8a);
+        
+    
+            var circle_876ab98640fd50704ff5f383df793578 = L.circle(
+                [-15.376706, 166.959158],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_b6f07f43b7911bc1915f227b15596a59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc9ac2274809b19a7f26e82ad804b9d4 = $(`<div id="html_dc9ac2274809b19a7f26e82ad804b9d4" style="width: 100.0%; height: 100.0%;">vanuatu Paper Count:1</div>`)[0];
+                popup_b6f07f43b7911bc1915f227b15596a59.setContent(html_dc9ac2274809b19a7f26e82ad804b9d4);
+            
+        
+
+        circle_876ab98640fd50704ff5f383df793578.bindPopup(popup_b6f07f43b7911bc1915f227b15596a59)
+        ;
+
+        
+    
+    
+            var marker_7570c1792734d558e13627a55c813da9 = L.marker(
+                [-15.376706, 166.959158],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_719958481ee8661f9158df4f864a0bc0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_7570c1792734d558e13627a55c813da9.setIcon(div_icon_719958481ee8661f9158df4f864a0bc0);
+        
+    
+            var circle_1d79df8a07e605ef202e8deed4129e28 = L.circle(
+                [6.42375, -66.58973],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_04eded3ecb5854a0b6e737e190845bcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_922339b1ecb986ca878331227d17c7f4 = $(`<div id="html_922339b1ecb986ca878331227d17c7f4" style="width: 100.0%; height: 100.0%;">venezuela Paper Count:1</div>`)[0];
+                popup_04eded3ecb5854a0b6e737e190845bcc.setContent(html_922339b1ecb986ca878331227d17c7f4);
+            
+        
+
+        circle_1d79df8a07e605ef202e8deed4129e28.bindPopup(popup_04eded3ecb5854a0b6e737e190845bcc)
+        ;
+
+        
+    
+    
+            var marker_99981b98efdfb0d503a779be2eaeda89 = L.marker(
+                [6.42375, -66.58973],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_217a0a6440de756865476db1fe960fa0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_99981b98efdfb0d503a779be2eaeda89.setIcon(div_icon_217a0a6440de756865476db1fe960fa0);
+        
+    
+            var circle_65b27850e47ca11e91491a48106f365c = L.circle(
+                [44.016521, 21.005859],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+        var popup_49c2bf80d114a2ff65b0ee274ecce3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8aae488218fd580e056fdbbe4546137a = $(`<div id="html_8aae488218fd580e056fdbbe4546137a" style="width: 100.0%; height: 100.0%;">yugoslavia Paper Count:1</div>`)[0];
+                popup_49c2bf80d114a2ff65b0ee274ecce3d6.setContent(html_8aae488218fd580e056fdbbe4546137a);
+            
+        
+
+        circle_65b27850e47ca11e91491a48106f365c.bindPopup(popup_49c2bf80d114a2ff65b0ee274ecce3d6)
+        ;
+
+        
+    
+    
+            var marker_5e5d189ef1c6e26126256de6c8401a39 = L.marker(
+                [44.016521, 21.005859],
+                {}
+            ).addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+    
+            var div_icon_1480cab194622b192f6c54c874d20ec7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt\"\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [10, 10]});
+            marker_5e5d189ef1c6e26126256de6c8401a39.setIcon(div_icon_1480cab194622b192f6c54c874d20ec7);
+        
+    
+            tile_layer_429731719e354dd32dda9b0712287f43.addTo(map_5dc071f2e342848bc677be10103f240d);
+        
+</script>
+</html>
